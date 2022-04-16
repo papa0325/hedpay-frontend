@@ -1,0 +1,140 @@
+.packages {
+  &__hold {}
+
+  &__buy {
+    margin-top: 35px;
+  }
+
+  .cards-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+}
+
+.numeric-input_cs {
+  max-width: unset !important;
+
+  button {
+    width: 50px !important;
+  }
+
+  .ni-display {
+    width: 80% !important;
+  }
+}
+
+.tokens-buy,
+.tokens-confirm,
+.tokens-finish {
+  justify-content: center;
+  min-height: 285px;
+}
+
+.tokens-buy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  @media (max-width: 768px) {
+    align-items: center;
+  }
+
+  .modal-heading {
+    align-self: center;
+  }
+
+  .limit-notification {
+    align-self: flex-start;
+    color: $main-light;
+    margin-left: 16px;
+
+    @media (max-width: 550px) {
+      align-self: center;
+      margin-left: 0;
+    }
+
+    .limit-value {
+      font-weight: 900;
+    }
+  }
+
+  .validation-message {
+    display: block;
+    color: $red;
+    margin-bottom: 36px;
+    min-height: 20px;
+  }
+}
+
+.confirm-title,
+.modal-heading {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 21px;
+  letter-spacing: 0.06em;
+  opacity: 0.5;
+  margin-bottom: 15px;
+
+}
+
+.tokens-confirm {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.tokens-finish {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+
+  .finish-message {
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: 0.06em;
+  }
+
+  .tokens-modal-btn {
+    width: 50%;
+  }
+}
+
+.confirm-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .confirm-value {
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.06em;
+    margin-bottom: 12px;
+  }
+}
+
+.buttons-row {
+  margin-top: 38px;
+  display: flex;
+}
+
+.tokens-modal-btn {
+  @include btn-teal;
+  width: 240px;
+  height: 56px;
+}
+
+.btn-return {
+  @include btn-transparent;
+  width: 98px;
+  margin-right: 22px;
+
+  &:hover {
+    color: white;
+  }
+}
+
+.flex-direction-column {
+  flex-direction: column !important;
+}

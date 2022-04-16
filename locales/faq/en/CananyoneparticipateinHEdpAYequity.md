@@ -1,0 +1,1 @@
+ALL are eligible to join HEdpAY as long as they submit KYC and AML forms and specify their interest (Limitation, Terms and Conditions will Apply).

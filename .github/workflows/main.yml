@@ -1,0 +1,64 @@
+name: Node-CI
+
+on:
+  push:
+    branches: [master, develop]
+
+jobs:
+  deploy-develop:
+    runs-on: ubuntu-18.04
+    if: github.ref == 'refs/heads/develop' && contains(github.event.head_commit.message, '[update]')
+
+    steps:
+      - name: Copy code files to container
+        uses: actions/checkout@v2
+
+      - name: Environment preparation
+        run: |
+          mkdir -p ~/.ssh/
+          touch ~/.ssh/id_rsa
+          chmod -R go= ~/.ssh
+          chmod 600 ~/.ssh/id_rsa
+          echo "${{ secrets.DEVELOP_SERVER_SSH_KEY }}" >> ~/.ssh/id_rsa
+          sudo apt-add-repository -y -u ppa:ansible/ansible
+          sudo apt-get install -y rsync
+          sudo apt-get install -y ansible
+
+      - name: Deploy to Server
+        run: |
+          chmod 700 ci-scripts
+          cd ci-scripts
+          ansible-playbook -i "${{ secrets.DEVELOP_REMOTE_HOST }}" -e "ansible_user=${{ secrets.DEVELOP_REMOTE_USER }} \
+            TARGET=${{ secrets.DEVELOP_TARGET }} \
+            BASE_URL=${{ secrets.DEVELOP_BASE_URL }} \
+            BASE_WSS_URL=${{ secrets.DEVELOP_BASE_WSS_URL }} \
+            SRC_DIR=${{ github.workspace }}/" website-update.yml;
+
+  deploy-master:
+    runs-on: ubuntu-18.04
+    if: github.ref == 'refs/heads/master' && contains(github.event.head_commit.message, '[update]')
+
+    steps:
+      - name: Copy code files to container
+        uses: actions/checkout@v2
+
+      - name: Environment preparation
+        run: |
+          mkdir -p ~/.ssh/
+          touch ~/.ssh/id_rsa
+          chmod -R go= ~/.ssh
+          chmod 600 ~/.ssh/id_rsa
+          echo "${{ secrets.DEVELOP_SERVER_SSH_KEY }}" >> ~/.ssh/id_rsa
+          sudo apt-add-repository -y -u ppa:ansible/ansible
+          sudo apt-get install -y rsync
+          sudo apt-get install -y ansible
+
+      - name: Deploy to Server
+        run: |
+          chmod 700 ci-scripts
+          cd ci-scripts
+          ansible-playbook -i "${{ secrets.DEVELOP_REMOTE_HOST }}" -e "ansible_user=${{ secrets.DEVELOP_REMOTE_USER }} \
+            TARGET=${{ secrets.TARGET }} \
+            BASE_URL=${{ secrets.BASE_URL }} \
+            BASE_WSS_URL=${{ secrets.BASE_WSS_URL }} \
+            SRC_DIR=${{ github.workspace }}/" website-update.yml;

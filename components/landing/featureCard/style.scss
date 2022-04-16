@@ -1,0 +1,38 @@
+.feature-card {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 29px 23px;
+  height: 100%;
+  background:
+    url("~assets/img/borders/light-border.png") 0 0 no-repeat,
+    url("~assets/img/borders/dark-border.png") 100% 100% no-repeat;
+  background-size: 52% 95%;
+  &__icon {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    margin-right: 28px;
+  }
+  &__name {
+    margin-bottom: 22px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 132.69%;
+    letter-spacing: 0.06em;
+    color: $main-dark;
+  }
+  &__description {
+    max-width: 150px;
+    margin: 0;
+    font-size: 18px;
+    line-height: 132.69%;
+    letter-spacing: 0.06em;
+    color: rgba($main-dark, 0.7);
+  }
+}

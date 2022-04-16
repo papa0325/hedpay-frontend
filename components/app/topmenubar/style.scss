@@ -1,0 +1,1256 @@
+@import "~bootstrap/scss/bootstrap";
+
+.top-nav-item {
+  text-align: left;
+  font: normal normal medium 14px/26px Roboto !important;
+  letter-spacing: 0px;
+  color: #08253E !important;
+  opacity: 1;
+  padding-right: 20px !important;
+}
+
+.nav-img {
+  padding-right: 6px;
+}
+
+.header-profile-user {
+  height: 40px;
+  width: 40px;
+  background-color: #ffffff;
+  padding: 3px;
+}
+
+/* fonts and sizes */
+body {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.H-12 {
+  font-size: 0.75rem;
+}
+
+.H-14 {
+  font-size: 0.875rem;
+}
+
+.H-16,
+.WalletFinalStep {
+  font-size: 1rem;
+
+}
+
+.H-18,
+.MenuText {
+  font-size: 1.125rem;
+}
+
+.H-20 {
+  font-size: 1.25rem;
+}
+
+.H-22 {
+  font-size: 1.375rem;
+}
+
+.H-25 {
+  font-size: 1.575rem;
+}
+
+.H-30 {
+  font-size: 1.875rem;
+}
+
+.H-40 {
+  font-size: 2.5rem;
+}
+
+.fontW-400 {
+  font-weight: 400;
+}
+
+.fontW-500 {
+  font-weight: 500;
+}
+
+.W-Color {
+  color: #F5F7FA;
+}
+
+.BD-Color {
+  color: #002554;
+}
+
+.LigthBlue {
+  color: #2DCCD3;
+}
+
+.OrangeColor {
+  color: #FFA300;
+}
+
+.greenColor {
+  color: #229F17;
+}
+
+.RedColor {
+  color: #FF000A;
+}
+
+.TextWhite {
+  color: #fff;
+}
+
+.TextDark {
+  color: #00263F
+}
+
+.TextGray {
+  color: #707070;
+}
+
+.TextGrayLight {
+  color: #8395A1;
+}
+
+.TextGrayWallet {
+  color: #556575;
+}
+
+.TextBlue {
+  color: #2DCCD3;
+}
+
+.TextBlack {
+  color: #1C2126;
+}
+
+.Bg-OrangeColor {
+  background: #FFA300;
+}
+
+.Bg-LBlue {
+  background: #2DCCD3;
+}
+
+/*buttons*/
+button,
+select {
+  overflow: hidden;
+  outline: none;
+}
+
+/* SELECT */
+select * {
+  padding: 10px 20px;
+  border-bottom: 2px solid #F4F3F3;
+}
+
+select:hover {
+  background-color: #F4F3F3;
+  opacity: 1;
+}
+
+/* menu custom */
+.LineBlueBottom {
+  border-bottom: 1px solid #2DCCD3;
+}
+
+.LineOrangeBottom {
+  border-bottom: 1px solid #FFA300;
+}
+
+.ButtonSideVertical {
+  background: #2DCCD3;
+  width: 53px;
+  height: 53px;
+}
+
+.dropdown-menu {
+  background: #F5F7FA 0% 0% no-repeat padding-box;
+  box-shadow: 3px 3px 12px #00000029;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.Avatar-Vertical {
+  width: 90px;
+  height: 90px;
+
+}
+
+.dropdown-menu {
+  width: 241px;
+}
+
+.Icon-Menu {
+  max-width: 59px;
+  max-height: 21px;
+}
+
+.icon-2fa {
+  width: 59px;
+  height: 21px;
+}
+
+.envelope-icon {
+  height: 18px;
+}
+
+#ButtonBottomProfileMenu {
+  display: none;
+
+}
+
+/* .Prev-Next:hover, .page-item:hover .page-link, .page-link:hover{
+  } */
+.next>a,
+.previous>a {
+  padding: 0.5rem;
+}
+
+li.next:hover>a.page-link,
+li.previous:hover>a.page-link {
+  background: #FFA300 !important;
+  color: #ffffff;
+}
+
+.page-Clients {
+  scroll-margin-top: 175px;
+  /* assuming that your sticky menu is about 90px high + added 15px extra margin */
+  margin-top: 50px;
+}
+
+.TitleGrafic {
+  max-width: 830px;
+  width: 100%;
+}
+
+/* .table th, .table td{
+	  width: fit-content !important;
+  } */
+
+@media (min-width:1700px) {
+  .justify-Center-XXL {
+    justify-content: center !important;
+  }
+
+  .Width-XXL {
+    max-width: 50% !important;
+  }
+
+  .TitleGrafic {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .Dashboard-Table,
+  .TitleTable {
+    width: 700px !important;
+  }
+}
+
+@media (max-width:1699px) {
+
+  .Dashboard-Table,
+  .TitleTable {
+    width: 500px !important;
+  }
+}
+
+@media (max-width:1200px) {
+
+  .Dashboard-Table,
+  .TitleTable {
+    width: 750px !important;
+  }
+}
+
+@media (max-width:990px) {
+  #vertical-menu-btn {
+    display: inline-block;
+  }
+
+  .MenuText {
+    font-size: 1rem;
+  }
+
+  .Icon-Menu {
+    max-width: 49px;
+    max-height: 25px;
+  }
+
+  .Dashboard-Table {
+    width: 700px !important;
+  }
+
+}
+
+@media (max-width:800px) {
+  .page-Clients {
+    scroll-margin-top: 175px;
+    /* assuming that your sticky menu is about 90px high + added 15px extra margin */
+    margin-top: 120px;
+  }
+
+  .Dashboard-Table {
+    width: 600px !important;
+  }
+}
+
+@media (max-width:600px) {
+  .Dashboard-Table {
+    width: 400px !important;
+  }
+}
+
+@media (max-width:475px) {
+
+  .Icon-Menu {
+    max-width: 40px;
+    max-height: 18px;
+  }
+
+  #ButtonProfileMenu {
+    display: none;
+
+  }
+
+  #ButtonBottomProfileMenu {
+    display: inline-block;
+
+  }
+
+  .header-profile-user {
+    height: 40px;
+    width: 40px;
+    background-color: #2DCCD3;
+    padding: 3px;
+  }
+
+  .Dashboard-Table {
+    width: 300px !important;
+  }
+}
+
+@media (max-width:390px) {
+  .ArrowIcon {
+    display: block;
+  }
+
+  .Dashboard-Table {
+    width: 280px !important;
+  }
+}
+
+
+/* DASHBOARD */
+.dataTables_length {
+  display: none;
+}
+
+.page-item.active .page-link {
+  background-color: #2DCCD3;
+  border-color: #2DCCD3;
+}
+
+.BalanceBox {
+  /* min-width: 270px; */
+  /* width: 270px; */
+  height: 90px;
+  background: transparent;
+  // box-shadow: 3px 3px 12px #00000019;
+  // border: 1px solid #E2E2E2;
+  border-radius: 6px;
+  opacity: 1;
+  padding: 12px !important;
+  margin-bottom: 12px;
+  /* margin-right: 12px; */
+}
+
+.PdS {
+  padding-right: 70px !important;
+  /* padding-left: 15px !important; */
+}
+
+#lineChart {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 3px 3px 9px #00000029;
+  border-radius: 6px;
+  opacity: 1;
+}
+
+.progress {
+  width: 580px;
+  height: 10px;
+}
+
+
+
+.Exch-Rates-Box {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 3px 3px 9px #00000029;
+  border-radius: 6px;
+  opacity: 1;
+}
+
+.Exch-Rates-Box-List {
+  background: #F5F7FA 0% 0% no-repeat padding-box;
+  opacity: 1;
+  max-height: 40px;
+  /*
+	  border: 1px solid rgba(0,0,0,.15);
+	  margin-bottom: 20px !important; */
+}
+
+.SelectExchange {
+  position: relative;
+  /*Don't really need this just for demo styling*/
+  float: left;
+}
+
+.SelectExchange:after {
+  content: '\f078';
+  font: normal normal normal 17px/1 FontAwesome;
+  color: #2DCCD3;
+  right: 11px;
+  top: 6px;
+  height: 34px;
+  padding: 5px 0px 5px 8px;
+  position: absolute;
+  pointer-events: none;
+}
+
+
+/* IE11 hide native button (thanks Matt!) */
+select::-ms-expand {
+  display: none;
+}
+
+.SelectExchange select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Add some styling */
+
+  display: block;
+  float: left;
+  /* line-height: 1.z75; */
+  color: #333;
+  background: #F5F7FA !important;
+  box-shadow: 3px 3px 6px #00000029;
+  border: 1px solid #002554;
+  border-radius: 6px;
+
+  height: 40px;
+  /* background-image: none; */
+  /* border: none !important; */
+  -ms-word-break: normal;
+  word-break: normal;
+}
+
+.Size-Boxes {
+  max-width: 700px;
+  width: 100%;
+}
+
+/* DROPDOWN LIST WITH ICONS */
+.vodiapicker {
+  display: none;
+}
+
+.lang-select,
+.lang {
+  z-index: 100;
+  background: #ffffff;
+  box-shadow: 3px 3px 9px #00000029;
+  height: 40px;
+  border-radius: 6px;
+}
+
+/* WALLET */
+.wallet-select,
+.wall {
+  z-index: 100;
+  background: #ffffff;
+  height: 53px;
+  border-radius: 6px;
+}
+
+#a {
+  padding-left: 0px;
+  background: #ffffff;
+  margin-bottom: 1px;
+}
+
+#a img,
+.btn-select img {
+  width: 22px;
+
+}
+
+#a li {
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 100;
+  background-color: #fff;
+  border-bottom: 2px solid #F4F3F3;
+  margin-left: 0;
+}
+
+#a li:hover {
+  background-color: #F4F3F3;
+  opacity: 1;
+
+}
+
+#a li img {
+  margin-left: 14.5px;
+}
+
+.btn-select li span {
+  /* margin-left: 20px; */
+  opacity: 1;
+  z-index: 100;
+
+
+}
+
+
+/* WALLET  */
+.a {
+  padding-left: 0px;
+  background: #ffffff;
+  margin-bottom: 1px;
+}
+
+.a img,
+.btn-select img {
+  width: 22px;
+
+}
+
+.a li {
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 100;
+  background-color: #fff;
+  border-bottom: 2px solid #F4F3F3;
+  margin-left: 0;
+}
+
+.a li:hover {
+  background-color: #F4F3F3;
+  opacity: 1;
+
+}
+
+.a li img {
+  margin-left: 14.5px;
+}
+
+.a li span {
+  padding-left: 20px !important;
+  opacity: 1;
+  z-index: 100;
+
+}
+
+.a li span.uno {
+  color: #ffffff;
+
+}
+
+.a li span.uno:hover {
+  color: #F4F3F3;
+
+}
+
+/* END WALLET */
+#a li span {
+  padding-left: 20px !important;
+  opacity: 1;
+  z-index: 100;
+
+}
+
+#a li span.uno {
+  color: #ffffff;
+
+}
+
+#a li span.uno:hover {
+  color: #F4F3F3;
+
+}
+
+/* item list */
+
+.b {
+  display: none;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 100;
+
+  /* max-width: 350px; */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: 5px;
+  opacity: 1;
+
+}
+
+/* WALLET */
+.b-wallet {
+  display: none;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 100;
+  /* max-width: 350px; */
+  /* box-shadow: 0 6px 12px rgba(0,0,0,.175); */
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: 5px;
+  opacity: 1;
+
+}
+
+.open {
+  display: inline-block !important;
+  opacity: 1;
+}
+
+
+.btn-select {
+  margin-top: 10px;
+  width: 100%;
+  /* max-width: 350px; */
+  height: 40px;
+  border-radius: 5px;
+
+}
+
+.btn-select li {
+  list-style: none;
+  float: left;
+  padding-bottom: 0px;
+  padding-left: 15px !important;
+
+}
+
+.btn-select:hover li {
+  margin-left: 2px;
+}
+
+.btn-select:hover {
+  background-color: #F4F3F3;
+  /* box-shadow: inset 0 0px 0px 1px #ccc; */
+  height: auto;
+  min-height: 40px;
+
+}
+
+/* wallet */
+.btn-wallet-select {
+  height: 53px;
+
+}
+
+.btn-wallet-select:hover {
+  min-height: 53px;
+
+}
+
+/* .btn-select:focus{
+	   outline:none;
+	} */
+
+.Table-Dash,
+.Grafic {
+  max-width: 830px;
+  float: right;
+}
+
+/* #lineChart{
+	  max-height: 313px;
+	  max-width: 830px;
+
+  } */
+.RespIconPound {
+  display: none;
+}
+
+@media (min-width:2100px) {
+  .BalanceBox {
+    max-width: 330px;
+    width: 330px;
+  }
+}
+
+@media (max-width:1500px) {
+  .H-16 {
+    font-size: 0.875rem;
+  }
+
+  .H-14 {
+    font-size: 0.75rem;
+  }
+
+  .H-12 {
+    font-size: 0.6rem;
+  }
+
+}
+
+@media (max-width:1409px) {
+  .RespIcon {
+    display: none;
+  }
+
+  .RespIconPound {
+    display: inline-block;
+  }
+
+  .H-20 {
+    font-size: 1.125rem;
+  }
+
+}
+
+@media (max-width:1200px) {
+  .BalanceBox {
+    max-width: auto;
+    width: auto;
+  }
+
+  .RespIcon {
+    display: inline-block;
+  }
+
+  .RespIconPound {
+    display: none;
+  }
+
+  .Size-Boxes {
+    max-width: 100%;
+  }
+
+  .Size-Boxes {
+    width: 700px;
+
+  }
+}
+
+
+@media (max-width:770px) {
+  .BA {
+    align-items: center;
+
+  }
+
+  .PdS {
+    padding-right: 0px !important;
+
+  }
+
+  .DashboardSection {
+    padding: 20px;
+  }
+
+  .uno {
+    display: none;
+  }
+
+  #lineChart {
+    height: 100%;
+    width: 100%;
+
+  }
+}
+
+@media (max-width:430px) {
+
+  .Table-Dash,
+  .Grafic {
+    max-width: 430px;
+  }
+
+  /* .BalanceBox{
+		  max-width: 270px;
+		  width: 270px;
+	  } */
+}
+
+/* REFERRAL */
+.Box-Card {
+  background: #FFFFFF 0% 0% no-repeat padding-box !important;
+  box-shadow: 3px 3px 12px #00000029 !important;
+  border-radius: 6px !important;
+  opacity: 1;
+
+
+  border: 1px solid #E2E2E2;
+}
+
+tbody {
+  background: #FFFFFF 0% 0% no-repeat padding-box !important;
+  box-shadow: 3px 3px 12px #00000029 !important;
+  border-radius: 6px !important;
+  opacity: 1;
+
+
+  border: 1px solid #E2E2E2;
+}
+
+.Ref-input {
+  background: #F5F7FA 0% 0% no-repeat padding-box;
+  border: 1px solid #E2E2E2;
+  border-radius: 6px;
+  opacity: 1;
+  width: 461px;
+  min-height: 53px !important;
+}
+
+.Ref-Button {
+  background: #2DCCD3 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 1;
+
+}
+
+.Ref {
+  width: 119px;
+  min-height: 53px !important;
+}
+
+.Share-Send {
+  max-width: 253px;
+  min-height: 53px;
+}
+
+.Wallet-Transfers-Button {
+  width: 200px;
+  min-height: 35px !important;
+}
+
+.Invite-Input {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 3px 3px 12px #00000019;
+  border: 1px solid #E2E2E2;
+  border-radius: 6px;
+  opacity: 1;
+  /* max-width: 387px; */
+  height: 58px;
+}
+
+.SizeH-Ref {
+  max-height: 340px;
+  min-height: 340px;
+
+}
+
+/* .BoxShare-Send{
+	  max-width: 438px;
+  } */
+.ReferenceBox {
+  /* min-width: 270px; */
+  /* width: 270px; */
+  height: 90px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 3px 3px 12px #00000019;
+  border: 1px solid #E2E2E2;
+  border-radius: 6px;
+  opacity: 1;
+  padding: 12px !important;
+  margin-bottom: 12px;
+  margin-right: 12px;
+}
+
+@media (min-width:2500px) {
+  .SizeH-Ref {
+    min-height: 360px;
+    max-height: 500px;
+  }
+
+  .BoxShare-Send {
+    min-width: 438px;
+  }
+}
+
+@media (max-width:767px) {
+  .SizeH-Ref {
+    min-height: auto;
+    max-height: 100%;
+
+  }
+
+}
+
+@media (max-width:575px) {
+  .Ref-Button {
+    margin-top: 20px;
+    width: 253px;
+  }
+
+  .Share-Send {
+    min-width: 100px;
+  }
+
+}
+
+/* WALLET */
+.Wallet-Box-Card {
+  padding: 12px !important;
+  margin-bottom: 12px;
+  margin-right: 12px;
+}
+
+.Wallet-Box {
+  background: #F5F7FA 0% 0% no-repeat padding-box;
+  box-shadow: 3px 3px 12px #00000019;
+  border: 1px solid #2DCCD3;
+  border-radius: 6px;
+  opacity: 1;
+}
+
+.Wallet-icon {
+  width: 40px;
+}
+
+.Wallet-Hide-ProggressBar {
+  display: none;
+}
+
+.Wallet-BlueLigth {
+  background: #2DCCD3 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 1;
+  height: 35px;
+}
+
+.Wallet-BlueDark {
+  background: #002554 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 1;
+  height: 35px;
+}
+
+.wallet-inp {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 3px 3px 12px #00000029;
+  border-radius: 6px 0 0 6px;
+  opacity: 1;
+  height: 35px;
+  border: 1px solid #E2E2E2;
+  width: 340px;
+  padding: 5px 16px;
+}
+
+.Wallet-SearchButton {
+  width: 35px;
+  height: 35px;
+  background: #00263F;
+  border-radius: 0 6px 6px 0;
+  min-width: 15%;
+}
+
+.linebottomgray {
+  border-bottom: 2px solid #F4F3F3;
+
+}
+
+.Funds-LabelBlue {
+  background: #2DCCD3 0% 0% no-repeat padding-box;
+  box-shadow: 3px 3px 12px #00000019;
+  border-radius: 6px;
+  opacity: 1;
+  height: 53px;
+}
+
+.Funds-LabelOrange {
+  background: orange 0% 0% no-repeat padding-box;
+  box-shadow: 3px 3px 12px #00000019;
+  border-radius: 6px;
+  opacity: 1;
+  height: 53px;
+}
+
+.Block-Funds {
+  max-width: 571px
+}
+
+.progress-wallet {
+  max-width: 500px;
+  width: 350px;
+}
+
+.MissingInfo {
+  border: 1px solid #dc2f02;
+  background-color: #FDDED8 !important;
+}
+
+.Contact-Button {
+  background: transparent !important;
+  right: 5%;
+  top: 11px;
+}
+
+.AddContactLink:link,
+.AddContactLink:visited,
+.AddContactLink:hover {
+  color: #2DCCD3;
+  border-bottom: 1px solid #2DCCD3;
+
+}
+
+.AddContactLink::before {
+  content: "+";
+  border: 1px solid #2DCCD3;
+  color: #2DCCD3;
+  padding: 0 5px;
+  margin-right: 3px;
+
+}
+
+.Transfer-LabelOrange {
+  background: #FFA300 0% 0% no-repeat padding-box;
+  box-shadow: 3px 3px 12px #00000019;
+  border-radius: 6px;
+  opacity: 1;
+  height: 53px;
+}
+
+@media (max-width:1440px) {
+
+  .WalletFinalStep {
+    font-size: 0.875rem;
+  }
+
+  .GUID-CODE {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width:1200px) {
+
+  .SEPA-Margin {
+    margin-top: 90px !important;
+  }
+
+  .progress-wallet {
+    max-width: 500px;
+    width: 250px;
+  }
+}
+
+@media (max-width:988px) {
+
+  .Block-Funds {
+    max-width: 100%
+  }
+
+  .WalletFinalStep,
+  .GUID-CODE {
+    font-size: 1rem;
+  }
+
+  .SEPA-Margin {
+    margin-left: 0px !important;
+  }
+
+}
+
+@media (max-width:571px) {
+
+  .WalletFinalStep,
+  .Title-Fund-Final {
+    font-size: 0.85rem;
+  }
+
+  .GUID-CODE {
+    font-size: 0.75rem;
+  }
+
+  .Wallet-SearchButton {
+    min-width: 25%;
+  }
+
+  .CardsIcons {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    padding-right: 28px;
+  }
+
+  .Contact-Button {
+    background: transparent !important;
+    right: 7%;
+    top: 11px;
+  }
+
+
+}
+
+@media (max-width:442px) {
+
+  .GUID-CODE {
+    font-size: 0.6rem;
+    font-weight: 500;
+  }
+
+}
+
+/* EXCHANGE */
+.icon-rotate {
+
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+}
+
+.pl-sm-2,
+.px-sm-2 {
+  padding-left: 0.5rem !important;
+}
+
+//
+// Pricing card
+//
+
+.card-pricing {
+  position: relative;
+  border-radius: 10px;
+
+  .card-pricing-icon {
+    font-size: 22px;
+    box-shadow: $box-shadow-lg;
+    height: 60px;
+    display: inline-block;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+  }
+
+  .card-pricing-features {
+    color: $gray-600;
+    list-style: none;
+    margin: 0;
+    padding: 20px 0 0 0;
+
+    li {
+      padding: 15px;
+    }
+  }
+}
+
+.GrayBox {
+  background: #F2F2F2 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  padding: 7px 19px;
+  height: 30px;
+  /* width: 148px; */
+}
+
+.Nav-TextGray {
+  text-align: left;
+  color: #002554;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0px;
+  height: auto;
+}
+
+.Nav-TextGreen {
+  text-align: left;
+  color: #229F17;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0px;
+  height: auto;
+}
+
+.Nav-TextRed {
+  text-align: left;
+  color: #9d0208;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0px;
+  height: auto;
+}
+
+.Nav-Button-Signin,
+.Nav-Button-Account {
+  border-radius: 8px;
+  border: none;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.125rem;
+  color: #FFFFFF;
+  letter-spacing: 0px;
+  padding: 9.5px 21px;
+
+}
+
+.Nav-Button-Signin {
+  background: #2DCCD3 0% 0% no-repeat padding-box;
+  margin-right: 10px;
+}
+
+.Nav-Button-Signin:hover {
+  background: #F2F2F2 0% 0% no-repeat padding-box;
+  color: #2DCCD3;
+}
+
+.Nav-Button-Account {
+  background: #002554 0% 0% no-repeat padding-box;
+
+}
+
+.Nav-Button-Account:hover {
+  color: #2DCCD3;
+  background: #F2F2F2 0% 0% no-repeat padding-box;
+
+}
+
+.Nav-Signin,
+.Nav-Account {
+  border: none;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0px;
+  padding: 0px 21px 0 0;
+  font-weight: 500;
+
+}
+
+.Nav-Signin {
+  color: #002554;
+
+}
+
+.Nav-Account {
+  color: #17B0B7;
+
+}
+
+.h-100 {
+  height: 100% !important;
+}
+
+.flex-direction-column {
+  flex-direction: column !important;
+}
+
+.OrangeColor {
+  color: orange;
+}
+
+input.BlueCBox {
+  width: 20px;
+  height: 20px;
+}

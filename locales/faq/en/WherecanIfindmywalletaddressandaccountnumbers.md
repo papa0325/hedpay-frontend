@@ -1,0 +1,3 @@
+Wallet address can be found by logging in to your HEdpAY wallet and at the left menu “click” Wallet, it will show up the Cryptos available in wallet, then “click” at the Deposit button, it will popup the QR Code with wallet address of the Crypto chosen.
+Account is available for natural persons who have identification KYC/AML process done. Account number can be found by logging in to your HEdpAY wallet account and in the top menu of wallet select profile you will find the currencies you chose and relative account number next to it...
+

@@ -1,0 +1,1 @@
+HEdpAY is the first project to connect traditional banks and digital assets wallet, it has the platform to exchange digital assets into FIAT currencies in same platform cost free and with lowest currency conversion rates.

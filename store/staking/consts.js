@@ -1,0 +1,5 @@
+export const GET_AVAILABLE_PACKAGES = 'GET_AVAILABLE_PACKAGES';
+export const GET_STAKING_DATA = 'GET_STAKING_DATA';
+export const BUY_PACKAGE = 'BUY_PACKAGE';
+export const CLAIM_STAKE = 'CLAIM_STAKE';
+export const WITHDRAW = 'WITHDRAW';

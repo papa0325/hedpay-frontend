@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="259" height="82" viewBox="0 0 259 82">
+  <defs>
+    <filter id="Rectangle_16" x="0" y="0" width="259" height="82" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_291" data-name="Groupe 291" transform="translate(-997.5 -5202.5)">
+    <g transform="matrix(1, 0, 0, 1, 997.5, 5202.5)" filter="url(#Rectangle_16)">
+      <rect id="Rectangle_16-2" data-name="Rectangle 16" width="250" height="73" rx="6" transform="translate(2.5 1.5)" fill="#00263f"/>
+    </g>
+    <path id="FontAwsome_google-play_" data-name="FontAwsome (google-play)" d="M51.041,20.1,32.1,1.115,56.2,14.947ZM27.162,0A3.335,3.335,0,0,0,25.3,3.029V40.894a3.335,3.335,0,0,0,1.862,3.029L49.179,21.957ZM63.646,19.357l-5.054-2.926-5.637,5.534L58.592,27.5l5.157-2.926A3.442,3.442,0,0,0,63.646,19.357ZM32.1,42.816,56.2,28.984l-5.157-5.157Z" transform="translate(993.787 5218.27)" fill="#f7f8f9"/>
+    <text id="Google_Play" data-name="Google Play" transform="translate(1149 5257)" fill="#f7f8f9" font-size="29" font-family="Roboto-Regular, Roboto"><tspan x="-76.649" y="0">Google Play</tspan></text>
+    <text id="Download_on" data-name="Download on" transform="translate(1072 5230)" fill="#f7f8f9" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Download on</tspan></text>
+  </g>
+</svg>

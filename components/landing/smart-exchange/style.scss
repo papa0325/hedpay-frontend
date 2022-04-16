@@ -1,0 +1,125 @@
+.smart-exchange {
+  padding: 144px 0 150px;
+  &__title {
+    @include landing-title;
+    margin-bottom: 80px;
+    color: $main-light;
+  }
+  &__text {
+    @include landing-paragraph;
+    margin: 0;
+    color: rgba($LandingParagraph, .8);
+  }
+
+  @media screen and (max-width: 1200px) {
+    padding: 96px 0 100px;
+    &__title {
+       margin-bottom: 40px
+     }
+  }
+
+  @media screen and (max-width: 640px) {
+    padding: 20px 0 40px;
+    &__title {
+      margin-bottom: 40px
+    }
+  }
+}
+
+.smart-exchange-content {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+
+  @media screen and (max-width: 1200px) {
+    flex-wrap: wrap;
+    max-width: 960px;
+    &__item {
+      flex: 0 0 100%;
+    }
+  }
+}
+
+.smart-exchange-information {
+  max-width: 555px;
+  padding-right: 24px;
+
+  @media screen and (max-width: 1200px) {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+.exchange-rates {
+  flex: 0 1 791px;
+  padding: 30px;
+  background: #F2F3F3;
+  border: 1px solid $stroke;
+  border-radius: 42px;
+  &__title {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 132.69%;
+    letter-spacing: 0.06em;
+    color: rgba($black, .3);
+  }
+  @media screen and (max-width: 640px) {
+    padding: 25px 25px 15px;
+  }
+}
+
+.exchange-rates-card-list {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  display: grid;
+  // &__item {
+  //   &:last-child {
+  //     grid-column-start: 1;
+  //     grid-column-end: 3;
+  //     .exchange-rates-card {
+  //       max-width: 50%;
+  //       margin: 0 auto;
+  //     }
+  //   }
+  // }
+
+  @media screen and (max-width: 640px) {
+    &__item {
+      flex: 0 1 100%;
+      max-width: 100%;
+    }
+  }
+}
+
+.exchange-rates-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 16px;
+  background: $white;
+  box-shadow: -30px 20px 30px rgba(17, 39, 39, 0.05);
+  &__name {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 132.69%;
+    letter-spacing: 0.06em;
+    color: $main-dark;
+    margin-bottom: 11px;
+  }
+  &__course {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 8px 16px;
+  }
+  &__course-value {
+    font-size: 16px;
+    line-height: 132.69%;
+    letter-spacing: 0.06em;
+    color: $main-dark;
+    white-space: nowrap;
+  }
+  @media screen and (max-width: 640px) {
+    padding: 12px 16px;
+  }
+}

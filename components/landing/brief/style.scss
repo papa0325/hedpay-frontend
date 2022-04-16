@@ -1,0 +1,29 @@
+.brief-block {
+  padding: 85px 0;
+  &__title {
+    @include landing-title;
+    margin-bottom: 40px;
+    text-align: center;
+    color: $main-light;
+  }
+  &__text {
+    @include landing-paragraph;
+    max-width: 990px;
+    text-align: center;
+    margin: 0 auto 70px;
+    color: $LandingParagraph;
+  }
+  &__button {
+    @include btn-teal;
+    display: block;
+    width: 270px;
+    height: 53px;
+    margin: 0 auto;
+  }
+
+  @media screen and (max-width: 960px) {
+    &__text {
+      max-width: 600px;
+    }
+  }
+}

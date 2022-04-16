@@ -1,0 +1,94 @@
+.package-card {
+  max-width: 414px;
+  width: 100%;
+  margin: 10px 10px;
+  .package-table {
+    min-height: 234px;
+  }
+  .package-info {
+    border: 1px solid #EAEAEA;
+    border-radius: 15px;
+    padding: 22px 50px;
+    @media (max-width: 900px) {
+      padding: 15px;
+    }
+    .package-table__row {
+      padding: 15px 0;
+      display: flex;
+      justify-content: space-between;
+      .package-table__label {
+        opacity: 0.3;
+      }
+      &.centered {
+        justify-content: center;
+      }
+    }
+    .package-table__row:not(:last-child) {
+      border-bottom: 1px solid #EAEAEA;
+    }
+    .package-table__amount {
+      font-weight: bold;
+      font-size: 21px;
+      color: #052B43;
+    }
+    .package-table__percentage {
+      font-weight: 500;
+      font-size: 30px;
+      letter-spacing: 0.06em;
+    }
+    .limit-notification {
+      font-size: 10px;
+      line-height: 12px;
+      letter-spacing: 0.06em;
+      opacity: 0.2;
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+  .packages-left {
+    .packages-left__amount {
+      font-size: 18px;
+      letter-spacing: 0.06em;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      text-align: center;
+
+    }
+    .packages-left__progress {
+      width: 100%;
+      height: 5px;
+      background: #F8F9FB;
+      border-radius: 5px;
+      position: relative;
+      .progressbar {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 47%;
+        border-radius: 5px;
+        background-color: #03a4ff;
+      }
+      .progressbar.red {
+        background-color: #EB5757;
+      }
+    }
+  }
+  .package-button {
+    @include btn-teal;
+    width: 100%;
+    height: 47px;
+    margin-top: 20px;
+  }
+}
+.package-card.disabled {
+  color: $grey;
+  opacity: 0.3;
+  .package-table__row_price {
+    display: none;
+  }
+  .progressbar {
+    background-color: #1F2D3D!important;
+  }
+}

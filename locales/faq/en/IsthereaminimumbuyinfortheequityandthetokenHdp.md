@@ -1,0 +1,2 @@
+- For the token a minimum of 10 Eth or the equivalent in FIAT currencies,
+- For the equity, only as a private placement, there is a minimum of 100 Eth or the equivalent in FIAT currencies, (under rules and regulations of the securities Act of the equity entity, with Limitations, Terms and Conditions Applying).

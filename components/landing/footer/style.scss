@@ -1,0 +1,171 @@
+.footer {
+  @include landing-paragraph;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 35px;
+
+  &__top,
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &__top {
+    margin-bottom: 105px;
+
+    &__left {
+      display: flex;
+      margin-right: 16px;
+    }
+  }
+
+  &__logo {
+    width: 195px;
+    cursor: pointer;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__nav {
+    margin-left: 160px;
+    display: flex;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+
+      &:not(:first-child) {
+        margin-left: 141px;
+      }
+    }
+
+    li {
+      color: $main-dark;
+      cursor: pointer;
+
+      &:not(:last-child) {
+        margin-bottom: 24px;
+      }
+    }
+  }
+
+  &__socials {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+
+    &__item {
+      width: 46px;
+      height: 46px;
+      cursor: pointer;
+
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  &__company-name {
+    color: $main-dark;
+  }
+
+  &__copyright {
+    color: #596372;
+    opacity: 0.5;
+  }
+
+  @media screen and (max-width: 960px) {
+    &__top {
+      margin-bottom: 60px;
+    }
+
+    &__top__left {
+      margin-bottom: 36px;
+    }
+
+    .footer__socials {
+      margin-left: 0;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    &__logo {
+      width: 160px;
+    }
+
+    &__top__left {
+      display: flex;
+      flex-flow: row wrap;
+      margin-bottom: 24px;
+    }
+
+    .footer__socials {
+      &__item {
+        width: 32px;
+        height: 32px;
+        margin-bottom: 8px;
+      }
+    }
+  }
+
+
+  .button-links {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .button-link {
+    margin: 25px;
+    width: 190px;
+    height: 64px;
+    background: #EAEAEA;
+    padding: 12px 20px;
+    opacity: 0.5;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      width: 27px;
+      height: 32px;
+    }
+
+    .text-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .text-helper {
+      font-size: 12px;
+      line-height: 132.69%;
+      color: #000000;
+      opacity: 0.2;
+    }
+
+    .title {
+      font-size: 18px;
+      letter-spacing: 0.06em;
+      color: #000000;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .footer__socials {
+      max-width: 320px;
+    }
+
+    .button-link {
+      margin: 18px;
+    }
+  }
+}

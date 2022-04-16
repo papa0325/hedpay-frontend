@@ -1,0 +1,1 @@
+HEdpAY is one of first projects provides bonus incentive, The first coin with guaranteed CO price pegged to equity and created to be the first and most authoritative financial structure to allow users to transfer in a fast, safe and cost effective manner Fiat currency into cryptocurrency and vice versa.

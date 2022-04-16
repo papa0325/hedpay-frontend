@@ -1,0 +1,197 @@
+.exchange {
+  .exchangeItemWrapper {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    .exchangeItem {
+      font-size: 12px;
+      color: #00253E;
+      line-height: 14px;
+      cursor: pointer;
+      border-radius: 2px;
+      padding: 5px;      
+        border: 1px solid transparent;
+      &:hover {
+        color: #2DCCD3;
+      }
+      &:active {
+        border: 1px solid #E8E8E8;
+      }
+    }
+  }
+  
+  .exchangeTable {
+    border: none;
+    border-top: 1px #e3e3e3e3 solid;
+    width: 100%;
+    thead {
+      tr {
+        td {
+          color: #838383;
+          font-size: 13px;
+          line-height: 15px;
+        }
+      }
+    }
+    tbody {
+      background-color: transparent !important;
+      box-shadow: none !important;
+      border: none;
+      tr {
+        cursor: pointer;
+        border: 1px solid transparent;
+        td {
+          font-size: 13px;
+          line-height: 15px;
+          border: none;
+        }
+        &:hover {
+          background-color: #f1f1f1;
+        }
+        &:active {
+          background-color: #eeeeee;
+          border: 1px solid #e8e8e8;
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+
+  .convertWrapper {
+    .convertItem {
+      background-color: #F5F5F5;
+      border: 1px solid #D2D2D2;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .ordersTable {
+    border: none;
+    width: 100%;
+    thead {
+      border-bottom: 1px #e3e3e3e3 solid;
+      tr {
+        td {
+          color: #002554;
+          font-size: 13px;
+          line-height: 15px;
+          font-weight: 600;
+        }
+      }
+    }
+    tbody {
+      background-color: transparent !important;
+      box-shadow: none !important;
+      border: none;
+      tr {
+        cursor: pointer;
+        border: 1px solid transparent;
+        td {
+          font-size: 13px;
+          line-height: 15px;
+          border: none;
+        }
+        &:hover {
+          background-color: #f1f1f1;
+        }
+        &:active {
+          background-color: #eeeeee;
+          border: 1px solid #e8e8e8;
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+
+  .latestdealTable {
+    border: none;
+    width: 100%;
+    thead {
+      border-bottom: 1px #e3e3e3e3 solid;
+      tr {
+        td {
+          color: #002554;
+          font-size: 13px;
+          line-height: 15px;
+          font-weight: 600;
+        }
+      }
+    }
+    tbody {
+      background-color: transparent !important;
+      box-shadow: none !important;
+      border: none;
+      tr {
+        cursor: pointer;
+        border: 1px solid transparent;
+        td {
+          font-size: 13px;
+          line-height: 15px;
+          border: none;
+        }
+        &:hover {
+          background-color: #f1f1f1;
+        }
+        &:active {
+          background-color: #eeeeee;
+          border: 1px solid #e8e8e8;
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+
+  .buySellItem {
+    background-color: #F5F5F5;
+    border: 1px solid #D2D2D2;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+  }
+
+  .ongoingOrdersTable {
+    border: none;
+    width: 100%;
+    thead {
+      padding-bottom: 20px;
+      height: 50px;
+      tr {
+        td {
+          color: #002554;
+          font-size: 13px;
+          line-height: 15px;
+          font-weight: 600;
+          text-align: center;
+        }
+      }
+    }
+    tbody {
+      background-color: transparent !important;
+      box-shadow: none !important;
+      border: none;
+      tr {
+        cursor: pointer;
+        // border: 1px solid transparent;
+        height: 20px;
+        border-bottom: 1px solid #D2D2D2;
+        td {
+          font-size: 13px;
+          line-height: 15px;
+          border: none;
+          text-align: center;
+        }
+        &:hover {
+          background-color: #f1f1f1;
+        }
+        &:active {
+          background-color: #eeeeee;
+          border: 1px solid #e8e8e8;
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+
+}

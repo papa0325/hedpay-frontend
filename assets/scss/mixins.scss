@@ -1,0 +1,220 @@
+@mixin landing-paragraph {
+	font-size: 18px;
+	line-height: 132.69%;
+	letter-spacing: 0.06em;
+
+  @media screen and (max-width: 1440px) {
+    font-size: 16px;
+  }
+
+  @media screen and (max-width: 1366px) {
+    font-size: 14px;
+  }
+}
+
+@mixin btn-teal {
+	background: $main-btn-color;
+	border-radius: 8px;
+	font-size: 18px;
+	line-height: 1.16;
+	letter-spacing: 0.06em;
+  transition: .3s all;
+	color: #ffffff;
+	&:hover {
+    background: $main-btn-color-hover;
+	}
+  &[disabled] {
+    background-color: $grey;
+    cursor: unset;
+  }
+
+  @media screen and (max-width: 1440px) {
+    font-size: 16px;
+	}
+
+	@media (max-width: 425px) {
+		font-size: 14px;
+	}
+}
+
+@mixin btn-transparent {
+	background: white;
+	border: 1px solid $stroke;
+	border-radius: 8px;
+	font-size: 18px;
+  line-height: 1.16;
+	letter-spacing: 0.06em;
+  transition: .3s all;
+	color: rgba(5, 43, 67, .5);
+  &:hover {
+    color: $main-light;
+    border-color: $main-light;
+  }
+
+  @media screen and (max-width: 1440px) {
+    font-size: 16px;
+	}
+
+	@media (max-width: 425px) {
+		font-size: 14px;
+	}
+}
+
+// auth
+
+@mixin auth-title {
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 1.16;
+	letter-spacing: 0.06em;
+	color: $main-dark;
+	margin-bottom: 10px;
+
+  @media screen and (max-width: 440px) {
+    font-size: 18px;
+  }
+}
+
+@mixin auth-subtitle {
+	font-size: 18px;
+	line-height: 1.16;
+	letter-spacing: 0.06em;
+	color: $main-light;
+	margin-bottom: 35px;
+
+  @media screen and (max-width: 440px) {
+    font-size: 16px;
+  }
+}
+
+@mixin auth-label {
+	font-size: 16px;
+	line-height: 1.18;
+	letter-spacing: 0.06em;
+	color: #596372;
+	margin-bottom: 10px;
+
+	@media screen and (max-width: 425px) {
+    font-size: 14px;
+  }
+}
+
+@mixin auth-input {
+	border: 1px solid #eaeaea;
+	border-radius: 5px;
+	height: 50px;
+	padding: 0 10px;
+
+	@media screen and (max-width: 425px) {
+    height: 40px;
+  }
+}
+@mixin auth-link {
+	width: fit-content;
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.06em;
+	text-decoration-line: underline;
+	color: $main-light;
+	cursor: pointer;
+}
+// =================================
+
+
+@mixin profile-label {
+	font-size: 12px;
+	line-height: 1.16;
+	letter-spacing: 0.06em;
+	color: rgba(5, 43, 67, .4);
+	margin-bottom: 10px;
+}
+@mixin profile-input {
+	border: 1px solid #EAEAEA;
+	border-radius: 5px;
+	padding: 7px 16px;
+	font-size: 14px;
+	line-height: 1.16;
+	letter-spacing: 0.06em;
+	color: $main-dark;
+	height: 40px;
+	transition: border 300ms;
+
+	&:disabled {
+		background: #F4F4F4;
+	}
+	&:focus {
+		border: 1px solid rgba(5, 43, 67, 0.34);
+	}
+}
+@mixin profile-title {
+	font-size: 18px;
+	line-height: 1.16;
+	letter-spacing: 0.06em;
+	color: $black;
+
+	@media (max-width: 425px) {
+		font-size: 16px;
+		line-height: 100%;
+	}
+}
+
+@mixin burger-button {
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	background: $main-dark;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+@mixin landing-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.16;
+  letter-spacing: 0.06em;
+
+  @media screen and (max-width: 1440px) {
+    font-size: 50px;
+  }
+
+  @media screen and (max-width: 1440px) {
+    font-size: 45px;
+  }
+
+  @media screen and (max-width: 1366px) {
+    font-size: 42px;
+  }
+
+  @media screen and (max-width: 1200px) {
+    font-size: 37px;
+  }
+}
+
+@mixin landing-subtitle {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  @media screen and (max-width: 1440px) {
+    font-size: 22px;
+  }
+  @media screen and (max-width: 1366px) {
+    font-size: 21px;
+  }
+}
+
+@mixin no-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

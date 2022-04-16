@@ -1,0 +1,1 @@
+On the HEdpAY website please click on _Register_ or Sign Up, enter your personal data required and click on submit and you will receive activation code in your unique email provided in the data and Follow on to the steps required.

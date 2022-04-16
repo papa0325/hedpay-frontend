@@ -1,0 +1,1 @@
+HEdpAY is a platform that aims to create a community network effect around purchasing power, HEdpAY aims to improve these concepts through the use of its token-based digital assets wallet.

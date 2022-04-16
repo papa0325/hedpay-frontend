@@ -1,0 +1,1 @@
+HEdpAY account is free of charge and can be opened in a few minutes by filling in the registration form and performing the identification process KYC/AML by HEdpAY Team. You will be able to use certain services in dependence on your account category. You can change or raise the account capacity at any time for free and receive access to more services offered by HEdpAY.

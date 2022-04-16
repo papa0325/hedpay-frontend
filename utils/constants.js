@@ -1,0 +1,1 @@
+export const BANNED_USER_RESPONSE_CODE = 403003;

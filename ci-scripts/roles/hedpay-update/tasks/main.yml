@@ -1,0 +1,52 @@
+---
+# tasks file for website-update
+- name: set fact here
+  set_fact:
+    BUILD: "/tmp/build-{{ 10000000 | random }}"
+
+- name: Create build dir
+  file:
+    path: '{{ BUILD }}'
+    state: directory
+    recurse: yes
+
+- name: Upload files
+  synchronize:
+    src: '{{ SRC_DIR }}'
+    dest: '{{ BUILD }}'
+    delete: yes
+    recursive: yes
+
+- name: Install packages based on package.json
+  npm:
+    path: '{{ BUILD }}'
+    state: present
+
+- name: Copy or generate env file
+  template:
+    src: ./.env.j2
+    dest: '{{ BUILD }}/.env'
+      
+- name: Generate code
+  shell: npm run generate
+  args:
+    chdir: '{{ BUILD }}'    
+
+- name: Delete TARGET dir
+  file:
+    path: '{{ TARGET }}'
+    state: absent    
+  
+- name: Create TARGET dir
+  file:
+    path: '{{ TARGET }}'
+    state: directory
+    recurse: yes
+
+- name: Copy builded files to TARGET
+  shell: cp -R {{ BUILD }}/dist/* {{ TARGET }}
+          
+- name: Delete BUILD dir
+  file:
+    path: '{{ BUILD }}'
+    state: absent    

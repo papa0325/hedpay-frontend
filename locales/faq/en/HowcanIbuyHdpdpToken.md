@@ -1,0 +1,1 @@
+You can buy HEdpAY HDP.Ф token from the exchanges listed on [WEBSITE](https://www.hedpay.com/) or you can do that directly from your HEdpAY Wallet with ETH, BTC, or FIAT currencies. (Minimum Amount Applies) 

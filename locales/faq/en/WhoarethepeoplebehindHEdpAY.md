@@ -1,0 +1,2 @@
+HEdpAY  was founded by Vicken Kaprelian, a founder and CEO  and  Executive entrepreneur has considerable experience in the commodities sector gold and diamonds from 1989 in the Middle East and North America Canada, where he created the IBIG Investments Inc. and there after created KIG Mining Plc in United Kingdom a public company listed on Frankfurt Stock Exchange and recently HEdpAY Ltd (2017), HEdpAY Technologies (2018) and HEdpAY UAB (2020)
+A - Team of Developers over 15 highly professional members with various expertise 

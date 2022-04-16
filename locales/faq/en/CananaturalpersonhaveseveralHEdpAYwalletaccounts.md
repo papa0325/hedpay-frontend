@@ -1,0 +1,1 @@
+NO, any individual can have only ONE HEdpAY wallet account and business account related to it, if there is a need, a natural person can have several HEdpAY Business wallet accounts. In order to create an additional Business account, please contact HEdpAY support service department by email to support@HEdpAY.com 

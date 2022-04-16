@@ -1,0 +1,24 @@
+.map-block {
+  margin-bottom: -30%;
+  &__title {
+    @include landing-title;
+    margin-bottom: 121px;
+    color: $main-light;
+    text-align: center;
+  }
+  &__map {
+    position: relative;
+    z-index: 2;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    margin-bottom: 0;
+
+    &__title {
+      margin-bottom: 80px;
+    }
+  }
+}

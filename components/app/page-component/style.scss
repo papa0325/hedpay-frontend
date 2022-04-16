@@ -1,0 +1,47 @@
+.component {
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid $stroke;
+  border-radius: 10px;
+
+  .head {
+    height: 70px;
+    border-bottom: 1px solid $stroke;
+    padding: 0 28px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.06em;
+    color: $black;
+
+    @media (max-width: 425px) {
+      font-size: 16px;
+      padding: 0 16px;
+    }
+
+    &__left, &__right {
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+  }
+  .body {
+    padding: 19px 28px;
+    @media (max-width: 1500px) {
+      padding: 10px 10px;
+    }
+    @media (max-width: 425px) {
+      //padding: 19px 10px
+    }
+    &.no-pad {
+      padding: 0;
+    }
+  }
+  .footer {
+    border-top: 1px solid $stroke;
+    padding: 19px 28px;
+  }
+}

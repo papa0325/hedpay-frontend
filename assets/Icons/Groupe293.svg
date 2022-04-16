@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="179" height="59" viewBox="0 0 179 59">
+  <defs>
+    <filter id="Rectangle_12" x="0" y="0" width="179" height="59" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_293" data-name="Groupe 293" transform="translate(-966.5 -7438.5)">
+    <g id="Groupe_287" data-name="Groupe 287" transform="translate(957 123)">
+      <g transform="matrix(1, 0, 0, 1, 9.5, 7315.5)" filter="url(#Rectangle_12)">
+        <rect id="Rectangle_12-2" data-name="Rectangle 12" width="170" height="50" rx="6" transform="translate(2.5 1.5)" fill="#fff"/>
+      </g>
+      <path id="FontAwsome_apple_" data-name="FontAwsome (apple)" d="M25.078,47.853a6.253,6.253,0,0,1,3.349-5.68,7.2,7.2,0,0,0-5.673-2.987c-2.378-.188-4.976,1.386-5.927,1.386-1,0-3.309-1.319-5.117-1.319C7.972,39.314,4,42.234,4,48.175a16.693,16.693,0,0,0,.964,5.438C5.822,56.071,8.916,62.1,12.144,62c1.688-.04,2.88-1.2,5.077-1.2,2.13,0,3.235,1.2,5.117,1.2,3.255-.047,6.055-5.526,6.872-7.99a6.639,6.639,0,0,1-4.132-6.155Zm-3.791-11A6.308,6.308,0,0,0,22.894,32a7.1,7.1,0,0,0-4.548,2.337,6.407,6.407,0,0,0-1.715,4.816A5.625,5.625,0,0,0,21.287,36.856Z" transform="translate(20.958 7295)" fill="#40bbc9"/>
+      <text id="Apple_Store" data-name="Apple Store" transform="translate(61 7354)" fill="#706c68" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Apple Store</tspan></text>
+      <text id="Download_on" data-name="Download on" transform="translate(61 7335)" fill="#706c68" font-size="12" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Download on</tspan></text>
+    </g>
+  </g>
+</svg>

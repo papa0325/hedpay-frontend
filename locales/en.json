@@ -1,0 +1,2105 @@
+{
+  "messages": {
+    "email": "Invalid email",
+    "length": "Invalid value",
+    "numeric": "Must be a number",
+    "confirmed": "Passwords must match",
+    "max": "The value is too long",
+    "password": "Password must consist of at least 6 characters, including at least 1 digit, 1 special character, both upper and lower case letters of latin alphabet",
+    "required": "This field is required"
+  },
+  "auth": {
+    "buttons": {
+      "sign_in": "Sign In",
+      "sign_up": "Sign Up",
+      "open_account": "Open an account",
+      "resend": "Resend the code"
+    },
+    "form": {
+      "heading": "Welcome to Hedpay",
+      "sign_in_please": "Please, sign in",
+      "fill_the_form_please": "Fill out the form below, please",
+      "check_email_heading": "Check your mailbox",
+      "check_email_description": "A letter with confirmation code has been sent to your email address, please enter the code below",
+      "2fa": "Two-factor authentication",
+      "sign_up_please": "Please, sign up",
+      "first_name": "First name",
+      "last_name": "Last name",
+      "nickname": "Nickname",
+      "email": "Email*",
+      "password": "Password*",
+      "agreement": "I agree with the registration agreement.",
+      "terms_and_conditions": "Service terms and conditions",
+      "2fa_code": "2FA code",
+      "code": "Code",
+      "account_recovery_link": "Forgot password?",
+      "step": "Next step",
+      "backbut": "Go back",
+      "options": {
+        "title": "Account Options",
+        "limited": "LIMITED",
+        "standard": "STANDARD",
+        "pro": "PRO",
+        "equivalent": "All USD$ equivelant",
+        "equivalent_l": "No KYC is required",
+        "equivalent_s": "Basic KYC screening required",
+        "equivalent_p": "KYC Level 2 screening required",
+        "normal_o": [
+          "Number of Trades per Day",
+          "Daily Total Trades Limit",
+          "Monthly Total Trades Limit",
+          " ",
+          "Number of Wihdrawals per Day",
+          "Daily Total Wihdrawals Limit",
+          "Monthly Total Wihdrawals Limit",
+          " ",
+          "Transactions With in Hedpay",
+          "Incoming Deposits",
+          "Wallet Capacity",
+          "Maximum Staking Amount"
+        ],
+        "info_l": [
+          "3",
+          "$500.00",
+          "$5,000.00",
+          "",
+          "3",
+          "$300.00",
+          "$2,500.00",
+          "",
+          "50",
+          "$500.00",
+          "$10,000.00",
+          "$100,000.00"
+        ],
+        "info_s": [
+          "5",
+          "$1,000.00",
+          "$10,000.00",
+          "",
+          "5",
+          "$500.00",
+          "$5,000.00",
+          "",
+          "150",
+          "$1,000.00",
+          "$50,000.00",
+          "Unlimited"
+        ],
+        "info_p": [
+          "10",
+          "$5,000.00",
+          "$25,000.00",
+          "",
+          "10",
+          "$1,000.00",
+          "$5,000.00",
+          "",
+          "500",
+          "$10,000.00",
+          "$250,000.00",
+          "Unlimited"
+        ]
+      },
+      "comment": {
+        "title_q": "Where can I get some?",
+        "title_qq": "Why do we use it?",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here."
+      },
+      "account_name": {
+        "left_title": "Login",
+        "right_title": "Your name",
+        "country": "Country of residence *",
+        "nickname": "Nickname *",
+        "email": "Email *",
+        "password": "Password *",
+        "rpassword": "Repeat Password *",
+        "name_title": "Title *",
+        "firstname": "First name *",
+        "middlename": "Middle name(s) *",
+        "lastname": "Last name *",
+        "country_list": [
+          "United States",
+          "Canada",
+          "Afghanistan",
+          "Albania",
+          "Algeria",
+          "American Samoa",
+          "Andorra",
+          "Angola",
+          "Anguilla",
+          "Antarctica",
+          "Antigua and/or Barbuda",
+          "Argentina",
+          "Armenia",
+          "Aruba",
+          "Australia",
+          "Austria",
+          "Azerbaijan",
+          "Bahamas",
+          "Bahrain",
+          "Bangladesh",
+          "Barbados",
+          "Belarus",
+          "Belgium",
+          "Belize",
+          "Benin",
+          "Bermuda",
+          "Bhutan",
+          "Bolivia",
+          "Bosnia and Herzegovina",
+          "Botswana",
+          "Bouvet Island",
+          "Brazil",
+          "British Indian Ocean Territory",
+          "Brunei Darussalam",
+          "Bulgaria",
+          "Burkina Faso",
+          "Burundi",
+          "Cambodia",
+          "Cameroon",
+          "Cape Verde",
+          "Cayman Islands",
+          "Central African Republic",
+          "Chad",
+          "Chile",
+          "China",
+          "Christmas Island",
+          "Cocos (Keeling) Islands",
+          "Colombia",
+          "Comoros",
+          "Congo",
+          "Cook Islands",
+          "Costa Rica",
+          "Croatia (Hrvatska)",
+          "Cuba",
+          "Cyprus",
+          "Czech Republic",
+          "Denmark",
+          "Djibouti",
+          "Dominica",
+          "Dominican Republic",
+          "East Timor",
+          "Ecuador",
+          "Egypt",
+          "El Salvador",
+          "Equatorial Guinea",
+          "Eritrea",
+          "Estonia",
+          "Ethiopia",
+          "Falkland Islands (Malvinas)",
+          "Faroe Islands",
+          "Fiji",
+          "Finland",
+          "France",
+          "France, Metropolitan",
+          "French Guiana",
+          "French Polynesia",
+          "French Southern Territories",
+          "Gabon",
+          "Gambia",
+          "Georgia",
+          "Germany",
+          "Ghana",
+          "Gibraltar",
+          "Greece",
+          "Greenland",
+          "Grenada",
+          "Guadeloupe",
+          "Guam",
+          "Guatemala",
+          "Guinea",
+          "Guinea-Bissau",
+          "Guyana",
+          "Haiti",
+          "Heard and Mc Donald Islands",
+          "Honduras",
+          "Hong Kong",
+          "Hungary",
+          "Iceland",
+          "India",
+          "Indonesia",
+          "Iran (Islamic Republic of)",
+          "Iraq",
+          "Ireland",
+          "Israel",
+          "Italy",
+          "Ivory Coast",
+          "Jamaica",
+          "Japan",
+          "Jordan",
+          "Kazakhstan",
+          "Kenya",
+          "Kiribati",
+          "Korea, Democratic People's Republic of",
+          "Korea, Republic of",
+          "Kuwait",
+          "Kyrgyzstan",
+          "Lao People's Democratic Republic",
+          "Latvia",
+          "Lebanon",
+          "Lesotho",
+          "Liberia",
+          "Libyan Arab Jamahiriya",
+          "Liechtenstein",
+          "Lithuania",
+          "Luxembourg",
+          "Macau",
+          "Macedonia",
+          "Madagascar",
+          "Malawi",
+          "Malaysia",
+          "Maldives",
+          "Mali",
+          "Malta",
+          "Marshall Islands",
+          "Martinique",
+          "Mauritania",
+          "Mauritius",
+          "Mayotte",
+          "Mexico",
+          "Micronesia, Federated States of",
+          "Moldova, Republic of",
+          "Monaco",
+          "Mongolia",
+          "Montserrat",
+          "Morocco",
+          "Mozambique",
+          "Myanmar",
+          "Namibia",
+          "Nauru",
+          "Nepal",
+          "Netherlands",
+          "Netherlands Antilles",
+          "New Caledonia",
+          "New Zealand",
+          "Nicaragua",
+          "Niger",
+          "Nigeria",
+          "Niue",
+          "Norfolk Island",
+          "Northern Mariana Islands",
+          "Norway",
+          "Oman",
+          "Pakistan",
+          "Palau",
+          "Panama",
+          "Papua New Guinea",
+          "Paraguay",
+          "Peru",
+          "Philippines",
+          "Pitcairn",
+          "Poland",
+          "Portugal",
+          "Puerto Rico",
+          "Qatar",
+          "Reunion",
+          "Romania",
+          "Russian Federation",
+          "Rwanda",
+          "Saint Kitts and Nevis",
+          "Saint Lucia",
+          "Saint Vincent and the Grenadines",
+          "Samoa",
+          "San Marino",
+          "Sao Tome and Principe",
+          "Saudi Arabia",
+          "Senegal",
+          "Seychelles",
+          "Sierra Leone",
+          "Singapore",
+          "Slovakia",
+          "Slovenia",
+          "Solomon Islands",
+          "Somalia",
+          "South Africa",
+          "South Georgia South Sandwich Islands",
+          "Spain",
+          "Sri Lanka",
+          "St. Helena",
+          "St. Pierre and Miquelon",
+          "Sudan",
+          "Suriname",
+          "Svalbard and Jan Mayen Islands",
+          "Swaziland",
+          "Sweden",
+          "Switzerland",
+          "Syrian Arab Republic",
+          "Taiwan",
+          "Tajikistan",
+          "Tanzania, United Republic of",
+          "Thailand",
+          "Togo",
+          "Tokelau",
+          "Tonga",
+          "Trinidad and Tobago",
+          "Tunisia",
+          "Turkey",
+          "Turkmenistan",
+          "Turks and Caicos Islands",
+          "Tuvalu",
+          "Uganda",
+          "Ukraine",
+          "United Arab Emirates",
+          "United Kingdom",
+          "United States minor outlying islands",
+          "Uruguay",
+          "Uzbekistan",
+          "Vanuatu",
+          "Vatican City State",
+          "Venezuela",
+          "Vietnam",
+          "Virgin Islands (British)",
+          "Virgin Islands (U.S.)",
+          "Wallis and Futuna Islands",
+          "Western Sahara",
+          "Yemen",
+          "Yugoslavia",
+          "Zaire",
+          "Zambia",
+          "Zimbabwe"
+        ]
+      },
+      "profile": {
+        "ltitle": "Your details",
+        "rtitle": "Your profile picture",
+        "haddr": "Home address *",
+        "phonenum": "Cell phone number",
+        "birth": "Date of birth *",
+        "takepho": "Take photo",
+        "uploadpho": "UPload photo",
+        "randomimg": "Define an image randomly",
+        "skip": "Skip this step",
+        "yidentity": "Your identity",
+        "upload": "Upload a file *",
+        "choosebut": "Choose a file",
+        "noselect": "No file selected",
+        "description": "Information requested is required by Hedpay UAB according to the Law on the Prevention of Money Laundering and Terrorist Financing of the Republic of Lithuania and all other international standards in order to ensure the « Knowledge of Client’s Activities », as well as for providing you with high quality and secure financial services.",
+        "month": [
+          "January",
+          "February",
+          "March",
+          "April",
+          "May",
+          "June",
+          "July",
+          "August",
+          "September",
+          "October",
+          "November",
+          "December"
+        ],
+        "countrycode": [
+          {
+            "name": "Afghanistan",
+            "dial_code": "+93",
+            "code": "AF"
+          },
+          {
+            "name": "Albania",
+            "dial_code": "+355",
+            "code": "AL"
+          },
+          {
+            "name": "Algeria",
+            "dial_code": "+213",
+            "code": "DZ"
+          },
+          {
+            "name": "AmericanSamoa",
+            "dial_code": "+1 684",
+            "code": "AS"
+          },
+          {
+            "name": "Andorra",
+            "dial_code": "+376",
+            "code": "AD"
+          },
+          {
+            "name": "Angola",
+            "dial_code": "+244",
+            "code": "AO"
+          },
+          {
+            "name": "Anguilla",
+            "dial_code": "+1 264",
+            "code": "AI"
+          },
+          {
+            "name": "Antigua & Barbuda",
+            "dial_code": "+1268",
+            "code": "AG"
+          },
+          {
+            "name": "Argentina",
+            "dial_code": "+54",
+            "code": "AR"
+          },
+          {
+            "name": "Armenia",
+            "dial_code": "+374",
+            "code": "AM"
+          },
+          {
+            "name": "Aruba",
+            "dial_code": "+297",
+            "code": "AW"
+          },
+          {
+            "name": "Australia",
+            "dial_code": "+61",
+            "code": "AU"
+          },
+          {
+            "name": "Austria",
+            "dial_code": "+43",
+            "code": "AT"
+          },
+          {
+            "name": "Azerbaijan",
+            "dial_code": "+994",
+            "code": "AZ"
+          },
+          {
+            "name": "Bahamas",
+            "dial_code": "+1 242",
+            "code": "BS"
+          },
+          {
+            "name": "Bahrain",
+            "dial_code": "+973",
+            "code": "BH"
+          },
+          {
+            "name": "Bangladesh",
+            "dial_code": "+880",
+            "code": "BD"
+          },
+          {
+            "name": "Barbados",
+            "dial_code": "+1 246",
+            "code": "BB"
+          },
+          {
+            "name": "Belarus",
+            "dial_code": "+375",
+            "code": "BY"
+          },
+          {
+            "name": "Belgium",
+            "dial_code": "+32",
+            "code": "BE"
+          },
+          {
+            "name": "Belize",
+            "dial_code": "+501",
+            "code": "BZ"
+          },
+          {
+            "name": "Benin",
+            "dial_code": "+229",
+            "code": "BJ"
+          },
+          {
+            "name": "Bermuda",
+            "dial_code": "+1 441",
+            "code": "BM"
+          },
+          {
+            "name": "Bhutan",
+            "dial_code": "+975",
+            "code": "BT"
+          },
+          {
+            "name": "Bosnia and Herzegovina",
+            "dial_code": "+387",
+            "code": "BA"
+          },
+          {
+            "name": "Botswana",
+            "dial_code": "+267",
+            "code": "BW"
+          },
+          {
+            "name": "Brazil",
+            "dial_code": "+55",
+            "code": "BR"
+          },
+          {
+            "name": "British Indian Ocean Territory",
+            "dial_code": "+246",
+            "code": "IO"
+          },
+          {
+            "name": "Bulgaria",
+            "dial_code": "+359",
+            "code": "BG"
+          },
+          {
+            "name": "Burkina Faso",
+            "dial_code": "+226",
+            "code": "BF"
+          },
+          {
+            "name": "Burundi",
+            "dial_code": "+257",
+            "code": "BI"
+          },
+          {
+            "name": "Cambodia",
+            "dial_code": "+855",
+            "code": "KH"
+          },
+          {
+            "name": "Cameroon",
+            "dial_code": "+237",
+            "code": "CM"
+          },
+          {
+            "name": "Cape Verde",
+            "dial_code": "+238",
+            "code": "CV"
+          },
+          {
+            "name": "Cayman Islands",
+            "dial_code": "+ 345",
+            "code": "KY"
+          },
+          {
+            "name": "Central African Republic",
+            "dial_code": "+236",
+            "code": "CF"
+          },
+          {
+            "name": "Chad",
+            "dial_code": "+235",
+            "code": "TD"
+          },
+          {
+            "name": "Chile",
+            "dial_code": "+56",
+            "code": "CL"
+          },
+          {
+            "name": "China",
+            "dial_code": "+86",
+            "code": "CN"
+          },
+          {
+            "name": "Christmas Island",
+            "dial_code": "+61",
+            "code": "CX"
+          },
+          {
+            "name": "Colombia",
+            "dial_code": "+57",
+            "code": "CO"
+          },
+          {
+            "name": "Comoros",
+            "dial_code": "+269",
+            "code": "KM"
+          },
+          {
+            "name": "Congo",
+            "dial_code": "+242",
+            "code": "CG"
+          },
+          {
+            "name": "Cook Islands",
+            "dial_code": "+682",
+            "code": "CK"
+          },
+          {
+            "name": "Costa Rica",
+            "dial_code": "+506",
+            "code": "CR"
+          },
+          {
+            "name": "Croatia",
+            "dial_code": "+385",
+            "code": "HR"
+          },
+          {
+            "name": "Cuba",
+            "dial_code": "+53",
+            "code": "CU"
+          },
+          {
+            "name": "Cyprus",
+            "dial_code": "+537",
+            "code": "CY"
+          },
+          {
+            "name": "Czech Republic",
+            "dial_code": "+420",
+            "code": "CZ"
+          },
+          {
+            "name": "Denmark",
+            "dial_code": "+45",
+            "code": "DK"
+          },
+          {
+            "name": "Djibouti",
+            "dial_code": "+253",
+            "code": "DJ"
+          },
+          {
+            "name": "Dominica",
+            "dial_code": "+1 767",
+            "code": "DM"
+          },
+          {
+            "name": "Dominican Republic",
+            "dial_code": "+1 849",
+            "code": "DO"
+          },
+          {
+            "name": "Ecuador",
+            "dial_code": "+593",
+            "code": "EC"
+          },
+          {
+            "name": "Egypt",
+            "dial_code": "+20",
+            "code": "EG"
+          },
+          {
+            "name": "El Salvador",
+            "dial_code": "+503",
+            "code": "SV"
+          },
+          {
+            "name": "Equatorial Guinea",
+            "dial_code": "+240",
+            "code": "GQ"
+          },
+          {
+            "name": "Eritrea",
+            "dial_code": "+291",
+            "code": "ER"
+          },
+          {
+            "name": "Estonia",
+            "dial_code": "+372",
+            "code": "EE"
+          },
+          {
+            "name": "Ethiopia",
+            "dial_code": "+251",
+            "code": "ET"
+          },
+          {
+            "name": "Faroe Islands",
+            "dial_code": "+298",
+            "code": "FO"
+          },
+          {
+            "name": "Fiji",
+            "dial_code": "+679",
+            "code": "FJ"
+          },
+          {
+            "name": "Finland",
+            "dial_code": "+358",
+            "code": "FI"
+          },
+          {
+            "name": "France",
+            "dial_code": "+33",
+            "code": "FR"
+          },
+          {
+            "name": "French Guiana",
+            "dial_code": "+594",
+            "code": "GF"
+          },
+          {
+            "name": "French Polynesia",
+            "dial_code": "+689",
+            "code": "PF"
+          },
+          {
+            "name": "Gabon",
+            "dial_code": "+241",
+            "code": "GA"
+          },
+          {
+            "name": "Gambia",
+            "dial_code": "+220",
+            "code": "GM"
+          },
+          {
+            "name": "Georgia",
+            "dial_code": "+995",
+            "code": "GE"
+          },
+          {
+            "name": "Germany",
+            "dial_code": "+49",
+            "code": "DE"
+          },
+          {
+            "name": "Ghana",
+            "dial_code": "+233",
+            "code": "GH"
+          },
+          {
+            "name": "Gibraltar",
+            "dial_code": "+350",
+            "code": "GI"
+          },
+          {
+            "name": "Greece",
+            "dial_code": "+30",
+            "code": "GR"
+          },
+          {
+            "name": "Greenland",
+            "dial_code": "+299",
+            "code": "GL"
+          },
+          {
+            "name": "Grenada",
+            "dial_code": "+1 473",
+            "code": "GD"
+          },
+          {
+            "name": "Guadeloupe",
+            "dial_code": "+590",
+            "code": "GP"
+          },
+          {
+            "name": "Guam",
+            "dial_code": "+1 671",
+            "code": "GU"
+          },
+          {
+            "name": "Guatemala",
+            "dial_code": "+502",
+            "code": "GT"
+          },
+          {
+            "name": "Guinea",
+            "dial_code": "+224",
+            "code": "GN"
+          },
+          {
+            "name": "Guinea-Bissau",
+            "dial_code": "+245",
+            "code": "GW"
+          },
+          {
+            "name": "Guyana",
+            "dial_code": "+595",
+            "code": "GY"
+          },
+          {
+            "name": "Haiti",
+            "dial_code": "+509",
+            "code": "HT"
+          },
+          {
+            "name": "Honduras",
+            "dial_code": "+504",
+            "code": "HN"
+          },
+          {
+            "name": "Hungary",
+            "dial_code": "+36",
+            "code": "HU"
+          },
+          {
+            "name": "Iceland",
+            "dial_code": "+354",
+            "code": "IS"
+          },
+          {
+            "name": "India",
+            "dial_code": "+91",
+            "code": "IN"
+          },
+          {
+            "name": "Indonesia",
+            "dial_code": "+62",
+            "code": "ID"
+          },
+          {
+            "name": "Iraq",
+            "dial_code": "+964",
+            "code": "IQ"
+          },
+          {
+            "name": "Ireland",
+            "dial_code": "+353",
+            "code": "IE"
+          },
+          {
+            "name": "Israel",
+            "dial_code": "+972",
+            "code": "IL"
+          },
+          {
+            "name": "Italy",
+            "dial_code": "+39",
+            "code": "IT"
+          },
+          {
+            "name": "Jamaica",
+            "dial_code": "+1 876",
+            "code": "JM"
+          },
+          {
+            "name": "Japan",
+            "dial_code": "+81",
+            "code": "JP"
+          },
+          {
+            "name": "Jordan",
+            "dial_code": "+962",
+            "code": "JO"
+          },
+          {
+            "name": "Kazakhstan",
+            "dial_code": "+7 7",
+            "code": "KZ"
+          },
+          {
+            "name": "Kenya",
+            "dial_code": "+254",
+            "code": "KE"
+          },
+          {
+            "name": "Kiribati",
+            "dial_code": "+686",
+            "code": "KI"
+          },
+          {
+            "name": "Kuwait",
+            "dial_code": "+965",
+            "code": "KW"
+          },
+          {
+            "name": "Kyrgyzstan",
+            "dial_code": "+996",
+            "code": "KG"
+          },
+          {
+            "name": "Latvia",
+            "dial_code": "+371",
+            "code": "LV"
+          },
+          {
+            "name": "Lebanon",
+            "dial_code": "+961",
+            "code": "LB"
+          },
+          {
+            "name": "Lesotho",
+            "dial_code": "+266",
+            "code": "LS"
+          },
+          {
+            "name": "Liberia",
+            "dial_code": "+231",
+            "code": "LR"
+          },
+          {
+            "name": "Liechtenstein",
+            "dial_code": "+423",
+            "code": "LI"
+          },
+          {
+            "name": "Lithuania",
+            "dial_code": "+370",
+            "code": "LT"
+          },
+          {
+            "name": "Luxembourg",
+            "dial_code": "+352",
+            "code": "LU"
+          },
+          {
+            "name": "Madagascar",
+            "dial_code": "+261",
+            "code": "MG"
+          },
+          {
+            "name": "Malawi",
+            "dial_code": "+265",
+            "code": "MW"
+          },
+          {
+            "name": "Malaysia",
+            "dial_code": "+60",
+            "code": "MY"
+          },
+          {
+            "name": "Maldives",
+            "dial_code": "+960",
+            "code": "MV"
+          },
+          {
+            "name": "Mali",
+            "dial_code": "+223",
+            "code": "ML"
+          },
+          {
+            "name": "Malta",
+            "dial_code": "+356",
+            "code": "MT"
+          },
+          {
+            "name": "Marshall Islands",
+            "dial_code": "+692",
+            "code": "MH"
+          },
+          {
+            "name": "Martinique",
+            "dial_code": "+596",
+            "code": "MQ"
+          },
+          {
+            "name": "Mauritania",
+            "dial_code": "+222",
+            "code": "MR"
+          },
+          {
+            "name": "Mauritius",
+            "dial_code": "+230",
+            "code": "MU"
+          },
+          {
+            "name": "Mayotte",
+            "dial_code": "+262",
+            "code": "YT"
+          },
+          {
+            "name": "Mexico",
+            "dial_code": "+52",
+            "code": "MX"
+          },
+          {
+            "name": "Monaco",
+            "dial_code": "+377",
+            "code": "MC"
+          },
+          {
+            "name": "Mongolia",
+            "dial_code": "+976",
+            "code": "MN"
+          },
+          {
+            "name": "Montenegro",
+            "dial_code": "+382",
+            "code": "ME"
+          },
+          {
+            "name": "Montserrat",
+            "dial_code": "+1664",
+            "code": "MS"
+          },
+          {
+            "name": "Morocco",
+            "dial_code": "+212",
+            "code": "MA"
+          },
+          {
+            "name": "Myanmar",
+            "dial_code": "+95",
+            "code": "MM"
+          },
+          {
+            "name": "Namibia",
+            "dial_code": "+264",
+            "code": "NA"
+          },
+          {
+            "name": "Nauru",
+            "dial_code": "+674",
+            "code": "NR"
+          },
+          {
+            "name": "Nepal",
+            "dial_code": "+977",
+            "code": "NP"
+          },
+          {
+            "name": "Netherlands",
+            "dial_code": "+31",
+            "code": "NL"
+          },
+          {
+            "name": "Netherlands Antilles",
+            "dial_code": "+599",
+            "code": "AN"
+          },
+          {
+            "name": "New Caledonia",
+            "dial_code": "+687",
+            "code": "NC"
+          },
+          {
+            "name": "New Zealand",
+            "dial_code": "+64",
+            "code": "NZ"
+          },
+          {
+            "name": "Nicaragua",
+            "dial_code": "+505",
+            "code": "NI"
+          },
+          {
+            "name": "Niger",
+            "dial_code": "+227",
+            "code": "NE"
+          },
+          {
+            "name": "Nigeria",
+            "dial_code": "+234",
+            "code": "NG"
+          },
+          {
+            "name": "Niue",
+            "dial_code": "+683",
+            "code": "NU"
+          },
+          {
+            "name": "Norfolk Island",
+            "dial_code": "+672",
+            "code": "NF"
+          },
+          {
+            "name": "Northern Mariana Islands",
+            "dial_code": "+1 670",
+            "code": "MP"
+          },
+          {
+            "name": "Norway",
+            "dial_code": "+47",
+            "code": "NO"
+          },
+          {
+            "name": "Oman",
+            "dial_code": "+968",
+            "code": "OM"
+          },
+          {
+            "name": "Pakistan",
+            "dial_code": "+92",
+            "code": "PK"
+          },
+          {
+            "name": "Palau",
+            "dial_code": "+680",
+            "code": "PW"
+          },
+          {
+            "name": "Panama",
+            "dial_code": "+507",
+            "code": "PA"
+          },
+          {
+            "name": "Papua New Guinea",
+            "dial_code": "+675",
+            "code": "PG"
+          },
+          {
+            "name": "Paraguay",
+            "dial_code": "+595",
+            "code": "PY"
+          },
+          {
+            "name": "Peru",
+            "dial_code": "+51",
+            "code": "PE"
+          },
+          {
+            "name": "Philippines",
+            "dial_code": "+63",
+            "code": "PH"
+          },
+          {
+            "name": "Poland",
+            "dial_code": "+48",
+            "code": "PL"
+          },
+          {
+            "name": "Portugal",
+            "dial_code": "+351",
+            "code": "PT"
+          },
+          {
+            "name": "Puerto Rico",
+            "dial_code": "+1 939",
+            "code": "PR"
+          },
+          {
+            "name": "Qatar",
+            "dial_code": "+974",
+            "code": "QA"
+          },
+          {
+            "name": "Romania",
+            "dial_code": "+40",
+            "code": "RO"
+          },
+          {
+            "name": "Rwanda",
+            "dial_code": "+250",
+            "code": "RW"
+          },
+          {
+            "name": "Samoa",
+            "dial_code": "+685",
+            "code": "WS"
+          },
+          {
+            "name": "San Marino",
+            "dial_code": "+378",
+            "code": "SM"
+          },
+          {
+            "name": "Saudi Arabia",
+            "dial_code": "+966",
+            "code": "SA"
+          },
+          {
+            "name": "Senegal",
+            "dial_code": "+221",
+            "code": "SN"
+          },
+          {
+            "name": "Serbia",
+            "dial_code": "+381",
+            "code": "RS"
+          },
+          {
+            "name": "Seychelles",
+            "dial_code": "+248",
+            "code": "SC"
+          },
+          {
+            "name": "Sierra Leone",
+            "dial_code": "+232",
+            "code": "SL"
+          },
+          {
+            "name": "Singapore",
+            "dial_code": "+65",
+            "code": "SG"
+          },
+          {
+            "name": "Slovakia",
+            "dial_code": "+421",
+            "code": "SK"
+          },
+          {
+            "name": "Slovenia",
+            "dial_code": "+386",
+            "code": "SI"
+          },
+          {
+            "name": "Solomon Islands",
+            "dial_code": "+677",
+            "code": "SB"
+          },
+          {
+            "name": "South Africa",
+            "dial_code": "+27",
+            "code": "ZA"
+          },
+          {
+            "name": "South Georgia and the South Sandwich Islands",
+            "dial_code": "+500",
+            "code": "GS"
+          },
+          {
+            "name": "Spain",
+            "dial_code": "+34",
+            "code": "ES"
+          },
+          {
+            "name": "Sri Lanka",
+            "dial_code": "+94",
+            "code": "LK"
+          },
+          {
+            "name": "Sudan",
+            "dial_code": "+249",
+            "code": "SD"
+          },
+          {
+            "name": "Suriname",
+            "dial_code": "+597",
+            "code": "SR"
+          },
+          {
+            "name": "Swaziland",
+            "dial_code": "+268",
+            "code": "SZ"
+          },
+          {
+            "name": "Sweden",
+            "dial_code": "+46",
+            "code": "SE"
+          },
+          {
+            "name": "Switzerland",
+            "dial_code": "+41",
+            "code": "CH"
+          },
+          {
+            "name": "Tajikistan",
+            "dial_code": "+992",
+            "code": "TJ"
+          },
+          {
+            "name": "Thailand",
+            "dial_code": "+66",
+            "code": "TH"
+          },
+          {
+            "name": "Togo",
+            "dial_code": "+228",
+            "code": "TG"
+          },
+          {
+            "name": "Tokelau",
+            "dial_code": "+690",
+            "code": "TK"
+          },
+          {
+            "name": "Tonga",
+            "dial_code": "+676",
+            "code": "TO"
+          },
+          {
+            "name": "Trinidad & Tobago",
+            "dial_code": "+1 868",
+            "code": "TT"
+          },
+          {
+            "name": "Tunisia",
+            "dial_code": "+216",
+            "code": "TN"
+          },
+          {
+            "name": "Turkey",
+            "dial_code": "+90",
+            "code": "TR"
+          },
+          {
+            "name": "Turkmenistan",
+            "dial_code": "+993",
+            "code": "TM"
+          },
+          {
+            "name": "Turks & Caicos Islands",
+            "dial_code": "+1 649",
+            "code": "TC"
+          },
+          {
+            "name": "Tuvalu",
+            "dial_code": "+688",
+            "code": "TV"
+          },
+          {
+            "name": "Uganda",
+            "dial_code": "+256",
+            "code": "UG"
+          },
+          {
+            "name": "Ukraine",
+            "dial_code": "+380",
+            "code": "UA"
+          },
+          {
+            "name": "United Arab Emirates",
+            "dial_code": "+971",
+            "code": "AE"
+          },
+          {
+            "name": "United Kingdom",
+            "dial_code": "+44",
+            "code": "GB"
+          },
+          {
+            "name": "Uruguay",
+            "dial_code": "+598",
+            "code": "UY"
+          },
+          {
+            "name": "Uzbekistan",
+            "dial_code": "+998",
+            "code": "UZ"
+          },
+          {
+            "name": "Vanuatu",
+            "dial_code": "+678",
+            "code": "VU"
+          },
+          {
+            "name": "Wallis & Futuna",
+            "dial_code": "+681",
+            "code": "WF"
+          },
+          {
+            "name": "Yemen",
+            "dial_code": "+967",
+            "code": "YE"
+          },
+          {
+            "name": "Zambia",
+            "dial_code": "+260",
+            "code": "ZM"
+          },
+          {
+            "name": "Zimbabwe",
+            "dial_code": "+263",
+            "code": "ZW"
+          },
+          {
+            "name": "land Islands",
+            "dial_code": "",
+            "code": "AX"
+          },
+          {
+            "name": "Antarctica",
+            "dial_code": null,
+            "code": "AQ"
+          },
+          {
+            "name": "Bolivia, Plurinational State of",
+            "dial_code": "+591",
+            "code": "BO"
+          },
+          {
+            "name": "Brunei Darussalam",
+            "dial_code": "+673",
+            "code": "BN"
+          },
+          {
+            "name": "Cocos (Keeling) Islands",
+            "dial_code": "+61",
+            "code": "CC"
+          },
+          {
+            "name": "Congo, The Democratic Republic of the",
+            "dial_code": "+243",
+            "code": "CD"
+          },
+          {
+            "name": "Cote d'Ivoire",
+            "dial_code": "+225",
+            "code": "CI"
+          },
+          {
+            "name": "Falkland Islands (Malvinas)",
+            "dial_code": "+500",
+            "code": "FK"
+          },
+          {
+            "name": "Guernsey",
+            "dial_code": "+44",
+            "code": "GG"
+          },
+          {
+            "name": "Holy See (Vatican City State)",
+            "dial_code": "+379",
+            "code": "VA"
+          },
+          {
+            "name": "Hong Kong",
+            "dial_code": "+852",
+            "code": "HK"
+          },
+          {
+            "name": "Iran, Islamic Republic of",
+            "dial_code": "+98",
+            "code": "IR"
+          },
+          {
+            "name": "Isle of Man",
+            "dial_code": "+44",
+            "code": "IM"
+          },
+          {
+            "name": "Jersey",
+            "dial_code": "+44",
+            "code": "JE"
+          },
+          {
+            "name": "Korea, Democratic People's Republic of",
+            "dial_code": "+850",
+            "code": "KP"
+          },
+          {
+            "name": "Korea, Republic of",
+            "dial_code": "+82",
+            "code": "KR"
+          },
+          {
+            "name": "Lao People's Democratic Republic",
+            "dial_code": "+856",
+            "code": "LA"
+          },
+          {
+            "name": "Libyan Arab Jamahiriya",
+            "dial_code": "+218",
+            "code": "LY"
+          },
+          {
+            "name": "Macao",
+            "dial_code": "+853",
+            "code": "MO"
+          },
+          {
+            "name": "Macedonia, The Former Yugoslav Republic of",
+            "dial_code": "+389",
+            "code": "MK"
+          },
+          {
+            "name": "Micronesia, Federated States of",
+            "dial_code": "+691",
+            "code": "FM"
+          },
+          {
+            "name": "Moldova, Republic of",
+            "dial_code": "+373",
+            "code": "MD"
+          },
+          {
+            "name": "Mozambique",
+            "dial_code": "+258",
+            "code": "MZ"
+          },
+          {
+            "name": "Palestinian Territory, Occupied",
+            "dial_code": "+970",
+            "code": "PS"
+          },
+          {
+            "name": "Pitcairn",
+            "dial_code": "+872",
+            "code": "PN"
+          },
+          {
+            "name": "Réunion",
+            "dial_code": "+262",
+            "code": "RE"
+          },
+          {
+            "name": "Russia",
+            "dial_code": "+7",
+            "code": "RU"
+          },
+          {
+            "name": "Saint Barthélemy",
+            "dial_code": "+590",
+            "code": "BL"
+          },
+          {
+            "name": "Saint Helena, Ascension and Tristan Da Cunha",
+            "dial_code": "+290",
+            "code": "SH"
+          },
+          {
+            "name": "Saint Kitts and Nevis",
+            "dial_code": "+1 869",
+            "code": "KN"
+          },
+          {
+            "name": "Saint Lucia",
+            "dial_code": "+1 758",
+            "code": "LC"
+          },
+          {
+            "name": "Saint Martin",
+            "dial_code": "+590",
+            "code": "MF"
+          },
+          {
+            "name": "Saint Pierre and Miquelon",
+            "dial_code": "+508",
+            "code": "PM"
+          },
+          {
+            "name": "Saint Vincent and the Grenadines",
+            "dial_code": "+1 784",
+            "code": "VC"
+          },
+          {
+            "name": "Sao Tome & Principe",
+            "dial_code": "+239",
+            "code": "ST"
+          },
+          {
+            "name": "Somalia",
+            "dial_code": "+252",
+            "code": "SO"
+          },
+          {
+            "name": "Svalbard and Jan Mayen",
+            "dial_code": "+47",
+            "code": "SJ"
+          },
+          {
+            "name": "Syrian Arab Republic",
+            "dial_code": "+963",
+            "code": "SY"
+          },
+          {
+            "name": "Taiwan, Province of China",
+            "dial_code": "+886",
+            "code": "TW"
+          },
+          {
+            "name": "Tanzania, United Republic of",
+            "dial_code": "+255",
+            "code": "TZ"
+          },
+          {
+            "name": "Timor-Leste",
+            "dial_code": "+670",
+            "code": "TL"
+          },
+          {
+            "name": "Venezuela, Bolivarian Republic of",
+            "dial_code": "+58",
+            "code": "VE"
+          },
+          {
+            "name": "Viet Nam",
+            "dial_code": "+84",
+            "code": "VN"
+          },
+          {
+            "name": "Virgin Islands, British",
+            "dial_code": "+1 284",
+            "code": "VG"
+          },
+          {
+            "name": "Virgin Islands, U.S.",
+            "dial_code": "+1 340",
+            "code": "VI"
+          }
+        ]
+      }
+    },
+    "validation": {
+      "required_field": "This field is required",
+      "invalid_email": "Invalid email",
+      "invalid_password": "Password must consist of at least 6 characters, including at least 1 digit, 1 special character, both upper and lower case letters of latin alphabet"
+    },
+    "misc": {
+      "no_account": "Don't have an account?"
+    }
+  },
+  "final_check":{
+    "welcome_title" : "Welcome to Hedpay",
+    "thank_title":"Thank you for creating your account",
+    "active_state" : "Your account is not yet activated",
+    "active_success" : "Your account has been validated",
+    "email_info":"An email was sent to jamiedavies@gmail.com, containing a validation code that you must paste here to activate your account.",
+    "transfer_but": "Transfer now",
+    "explore_but" : "Explore my account",
+    "paste_but" : "Paste"
+
+  },
+  "kyc_condition": {
+    "title":"KYC/AML Conditions",
+    "signature":"Signature *",
+    "condition": [
+      "I hereby confirm that I read and agree with the Terms and Conditions of Service, Privacy Policy, and Cookies Policy.",
+      "I hereby confirm that all information above is true and accurate. I understand that giving false or misleading information will make immediate cancelation of services and may bring on legal proceedings.",
+      "I undertake to immediately inform Hedpay UAB about any changes in the information above in writing form.",
+      "I hereby confirm that the funds transferred have legal background. Services offerred by Hedpay UAB will not be used for any illegal purposes, and I will not take part in any operation, which is considered illegal money laundering and terrorism financing.",
+      "I am informed that my relationship with Hedpay UAB is handled in accordance with the Law on the Prevention of Money Laundering and Terrorist Financing of the Republic of Lithuania and the underlying laws and regulations of EU and EEA, and I am completely aware of my obligations which I undertake by signing below.",
+      "I hereby agree that the legal relationship establishment between myself and Hedpay UAB allows Hedpay UAB to make use of or share my data with any third party according to the law, including any request for additional information."
+    ]
+  },
+  "term_condition": {
+    "title": "Terms and conditions",
+    "submitbut": "Submit",
+    "sub_changes": "CHANGES",
+    "sub_privacy" : "PRIVACY POLICY AND COOKIE POLICY",
+    "contactus":"CONTACT US",
+    "first_sen": "Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights. If any provision of these Terms is held to be invalid or unenforceable by a court, the remaining provisions of these Terms will remain in effect. These Terms constitute the entire agreement between us regarding our Service, and supersede and replace any prior agreements we might have between us regarding the Service.",
+    "sec_sen": "We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion. By continuing to access or use our Service after those revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, you must stop using the service.",
+    "thir_sen": "Please refer to our Privacy Policy and Cookies Policy. You agree that they constitute part of these terms. You must read our Privacy Policy and Cookies Policy before you use the Service.",
+    "four_sen": "If you have any questions about these Terms, please contact us compliance@hedpay.com"
+  },
+  "sidebar": {
+    "online": "online",
+    "dashboard": "Dashboard",
+    "packages": "Buy HDP",
+    "wallets": "Wallets",
+    "Profile": "Profile",
+    "faq": "FAQ",
+    "trade": "Trade"
+  },
+  "dashboard": {
+    "headings": {
+      "balance": "Balance",
+      "rates": "Rates",
+      "my_packages": "My packages",
+      "contacts": "Contacts"
+    },
+    "balance": {
+      "list": "list",
+      "chart": "chart"
+    },
+    "packages": {
+      "name": "Name",
+      "locked_tokens": "Staked",
+      "timeline": "Timeline",
+      "lockdate": "Lock date",
+      "deadline": "Unlock date",
+      "rate": "Annual rate",
+      "interest": "Interest",
+      "earnings": "Earned"
+    }
+  },
+  "wallets": {
+    "notification": {
+      "successWallet": "Success reward to wallet",
+      "successStacking": "Success reward to stacking"
+    },
+    "headings": {
+      "exchange": "Wallets",
+      "investment": "Hdp Staking",
+      "history": "Operations history"
+    },
+    "exchange": {
+      "icon": "Icon",
+      "token": "Assets",
+      "ticker": "Ticker",
+      "balance": "Balance",
+      "usd_value": "USD value",
+      "blocked": "Locked",
+      "amount": "Amount",
+      "status": "Status",
+      "name": "Name",
+      "total": "Total"
+    },
+    "history": {
+      "date": "Date",
+      "deposit": "Deposit",
+      "withdrawal": "Withdrawal",
+      "token": "Coin/token",
+      "id": "ID",
+      "status": "Status",
+      "success": "Success",
+      "pending": "Pending",
+      "error": "Error"
+    }
+  },
+  "profile": {
+    "fields": {
+      "tooLarge": "The file is too heavy",
+      "onlyTwo": "Only 2 file upload is available",
+      "req": "Required field",
+      "expiryExpired": "The document is overdue",
+      "ver1": "Verification level 1",
+      "ver2": "Verification level 2",
+      "ver3": "Verification level 3",
+      "billingAddress": "Billing address",
+      "shippingAddress": "Address",
+      "firstName": "Name *",
+      "lastName": "Surname *",
+      "middleName": "Middle name",
+      "gender": {
+        "title": "Gender",
+        "male": "Male",
+        "female": "Female"
+      },
+      "username": "username",
+      "telephone": "Telephone",
+      "birthDate": "Date of birth *",
+      "birthPlace": "Place of birth",
+      "identityDocument": "Identity document *",
+      "identityDocumentNumber": "Document #",
+      "identityDocumentRelDate": "Release date",
+      "identityDocumentExpDate": "Expiry date",
+      "docIdentCopyFile": "Copy of identity document",
+      "state": "State",
+      "city": "City",
+      "province": "Province",
+      "stateRegion": "State/Region",
+      "streetType": "Street type",
+      "streetName": "Street name *",
+      "buildingNum": "Building num *",
+      "unitNumber": "Unit number",
+      "zip": "Zip Code *",
+      "shippingState": "State",
+      "shippingCity": "City",
+      "shippingProvince": "Province",
+      "shippingStreetType": "Street type",
+      "shippingStreetName": "Street name *",
+      "shippingBuildingNum": "Building num *",
+      "shippingUnitNumber": "Unit number",
+      "shippingZip": "Zip Code *",
+      "country": "Country *"
+    },
+    "heading": "Profile",
+    "basic_info": "Basic info",
+    "2fa": "2FA",
+    "change_password": "Change password",
+    "status": "status",
+    "enabled": "enabled",
+    "disabled": "disabled",
+    "forms": {
+      "first_name": "First name",
+      "last_name": "Last Name",
+      "nickname": "Nickname",
+      "email": "Email",
+      "phone": "Phone number",
+      "account_password": "Account password",
+      "google_code": "Google Authentication Code",
+      "old_password": "Old password",
+      "new_password": "New password",
+      "password_confirmation": "Confirm password"
+    },
+    "buttons": {
+      "edit": "Edit",
+      "change_photo": "Change profile photo",
+      "save": "Save",
+      "enable": "Enable",
+      "disable": "Disable",
+      "change_password": "Change password",
+      "next_step": "Next step",
+      "previous_step": "Previous step",
+      "verify": "Verify",
+      "create_account": "Create account"
+    },
+    "2fa_modal": {
+      "step": "Step",
+      "step_install": "Install the App",
+      "step_scan": "Scan QR code",
+      "step_key": "Backup key",
+      "step_enable": "Enable Google Authenticator",
+      "step_1": {
+        "action": "Install the Google Authenticator mobile app"
+      },
+      "step_2": {
+        "action": "Scan this QR code with the Google Authenticator",
+        "tip": "If you can't scan the QR code, enter this code manually into the app"
+      },
+      "step_3": {
+        "action": "Please copy this key into a safe place. It'll allow you to reset your Google Authenticator even if you lose your phone",
+        "tip": "Resetting your Google Authenticator requires opening a support ticket, and takes at least 7 days to process"
+      },
+      "step_4": {
+        "action": "Enable your Google Authenticator"
+      }
+    },
+    "phone_confirmation_modal": {
+      "heading": "Enter your phone number to receive a confirmation code"
+    }
+  },
+  "landing": {
+    "heading": "The future banking solution",
+    "subheading": "HEdpAY is one of the first projects connecting traditional bank and the crypto universe",
+    "packages": {
+      "heading": "Hedpay Fund Packages",
+      "prepositions": {
+        "up_to": "Up to",
+        "more_than": "More than"
+      },
+      "cost": "Package price",
+      "revenue": "Annual revenue",
+      "button": "Purchase"
+    },
+    "intro": {
+      "heading": "Hedpay in a nutshell",
+      "text": "HEDPAY's objective is to make the traditional banking market leaner, faster, more efficient and at the same time, to better regulate the crypto or digital assets market, making it safer and intuitive by all consumers, even people less familiar with the technology, HEDPAY’s mission to bridge the gap between traditional banks and crypto finance that uses blockchain technologies, to become the future banking solution."
+    },
+    "features": {
+      "heading": "HEdpAY Unique Features",
+      "text": "B2B, B2C, C2C and Mainly all are P2P (Peer to Peer)",
+      "card_1": {
+        "heading": "E-Bank",
+        "text": "Crypto & Fiat"
+      },
+      "card_2": {
+        "heading": "Card",
+        "text": "Crypto & Fiat"
+      },
+      "card_3": {
+        "heading": "Mobile App",
+        "text": "iOS & Android"
+      },
+      "card_4": {
+        "heading": "Exchange",
+        "text": "Crypto/Crypto & Crypto/Fiat"
+      }
+    },
+    "banking": {
+      "heading": "E-Banking",
+      "annotation": "* Further currencies will be announced",
+      "button": "Sign up",
+      "subsection_1": {
+        "heading": "Send Funds Worldwide Instantly and with no Fees",
+        "text": "HEdpAY e-banking is an innovative banking solution, aiming to provide fast and convenient solutions for banking and FinTech, to businesses and consumers alike. This is the future banking solution to FIAT and Crypto transactions on the go, ATM, POS and Online accounts."
+      },
+      "subsection_2": {
+        "heading": "E-Banking Integrated Currencies"
+      }
+    },
+    "social_media": {
+      "heading": "Follow Us on Social medias",
+      "subheading": "Refer a Friend Earn Rewards Hdp.dp",
+      "text": "Follow HEdpAY and Share on your social channels, to gather Hdp.dp rewards. Simply provide your Follow and Share LINK to claim your reward.",
+      "button": "Sign up"
+    },
+    "holding": {
+      "heading": "Hold over 10,000 Hdp.dp Earn Annual 7%",
+      "subheading": "Be HEdpAY Hdp.dp Loyal Holder",
+      "text": "Get ahead of the curve and join the growing number of investors who share the HEdpAY vision to revolutionise personal and business banking with blockchain",
+      "button": "Sign up"
+    },
+    "wallet": {
+      "heading": "Wallet",
+      "subheading": "Wallet Integrated Currencies",
+      "paragraph_1": "Take advantage of HEdpAY’s Ethereum based wallet that is ERC-223 & ERC-20 compatible and allows you to deposit and retain other Crypto and Fiat currencies.",
+      "paragraph_2": "Need cash? Withdraw from your HEdpAY wallet onto your unique HEdpAY card, and withdraw from any ATM in the world.",
+      "annotation": "* Further Cryptocurrencies and Currencies will be announced",
+      "button": "Sign up"
+    },
+    "exchange": {
+      "heading": "Smart Exchange",
+      "text": "Trade and exchange freely between cryptocurrencies and pair to other major Fiat currencies using our innovation and secure Exchange. Simultaneously transact, transfer and withdraw in a secure environment Instant withdrawals to your HEdpAY account, wallet and card all within one platform, saving you time and reducing cost.",
+      "table_heading": "Exchange Rates"
+    },
+    "map": {
+      "heading": "Where We Operate"
+    },
+    "storyline": {
+      "heading": "Get more info about us",
+      "stage_1": "Exchange Launch",
+      "stage_2": "Wallet launch",
+      "stage_3": "Software development",
+      "stage_4": "Token launch",
+      "stage_5": "Project realization",
+      "button": "Contact us"
+    },
+    "footer": {
+      "meta": "HEdpAY Technologies",
+      "copyright": "Copyright",
+      "rights": "Hedpay Technologies. All rights reserved"
+    }
+  },
+  "referal": {
+    "refSystem": "Referral System",
+    "coverDesc": "Each referral receives 10 Hdp as a new user for the fact of registration on Hedpay. Each referrer receives 5% in Hdp tokens from each purchase of the referral.",
+    "for": "for 1 ref",
+    "your": "You Referral Link",
+    "copy": "Copy",
+    "inviteFriends": "Invite Your Friends",
+    "emailAddress": "Email address",
+    "enterEmail": "Enter email",
+    "enterValidEmail": "Enter correct email",
+    "someMsg": "Type in a message",
+    "enterMsg": "Enter message",
+    "successInvite": "Invitation sent",
+    "sendBtn": "Send",
+    "statSent": "Personal invites sent",
+    "statRef": "My referrals",
+    "statBonus": "My bonuses"
+  },
+  "faq": {
+    "title": "FAQ",
+    "navItems": [
+      [
+        {
+          "title": "About Us",
+          "categoryItems": [
+            {
+              "text": "Where is HEdpAY based?",
+              "value": "WhereisHEdpAYbased"
+            },
+            {
+              "text": "How old is HEdpAY?",
+              "value": "HowoldisHEdpAY"
+            },
+            {
+              "text": "Who are the people behind HEdpAY?",
+              "value": "WhoarethepeoplebehindHEdpAY"
+            },
+            {
+              "text": "What are the official Channels of HEDPAY?",
+              "value": "WhataretheofficialChannelsofHEDPAY"
+            }
+          ]
+        },
+        {
+          "title": "HEdpAY",
+          "categoryItems": [
+            {
+              "text": "What is HEdpAY?",
+              "value": "WhatisHEdpAY"
+            },
+            {
+              "text": "Can anyone participate in HEdpAY equity?",
+              "value": "CananyoneparticipateinHEdpAYequity"
+            },
+            {
+              "text": "How is HEdpAY different from other banks?",
+              "value": "HowisHEdpAYdifferentfromotherbanks"
+            },
+            {
+              "text": "Why should I choose HEdpAY over other wallets or banks?",
+              "value": "WhyshouldIchooseHEdpAYoverotherwalletsorbanks"
+            },
+            {
+              "text": "How can I open a personal account?",
+              "value": "HowcanIopenapersonalaccount"
+            },
+            {
+              "text": "How can I open a business account?",
+              "value": "HowcanIopenabusinessaccount"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "title": "HEdpAY Token",
+          "categoryItems": [
+            {
+              "text": "How can I buy Hdp.ф Token?",
+              "value": "HowcanIbuyHdpdpToken"
+            },
+            {
+              "text": "Is the HEdpAY token a utility token or security?",
+              "value": "IstheHEdpAYtokenautilitytokenorsecurity"
+            },
+            {
+              "text": "Who can use HDP.Ф token?",
+              "value": "WhocanuseHDPdptoken"
+            },
+            {
+              "text": "Is HDP.Ф token Decentralised?",
+              "value": "IsHDPdptokenDecentralised"
+            },
+            {
+              "text": "Is HDP.Ф token convertible to other currencies?",
+              "value": "IsHDPdptokenconvertibletoothercurrencies"
+            }
+          ]
+        },
+        {
+          "title": "Account",
+          "categoryItems": [
+            {
+              "text": "How can I open a HEdpAY wallet account?",
+              "value": "HowcanIopenaHEdpAYwalletaccount"
+            },
+            {
+              "text": "Is it safe to keep Crypto and Currencies on HEdpAY Wallet account?",
+              "value": "IsitsafetokeepCryptoandCurrenciesonHEdpAYWalletaccount"
+            },
+            {
+              "text": "How can I close my account?",
+              "value": "HowcanIclosemyaccount"
+            },
+            {
+              "text": "To Update your profile",
+              "value": "ToUpdateyourprofile"
+            },
+            {
+              "text": "To View your account information",
+              "value": "ToViewyouraccountinformation"
+            },
+            {
+              "text": "How can I send Messages?",
+              "value": "HowcanIsendMessages"
+            },
+            {
+              "text": "What are Notifications for?",
+              "value": "WhatareNotificationsfor"
+            },
+            {
+              "text": "How can I set my Notifications?",
+              "value": "HowcanIsetmyNotifications"
+            },
+            {
+              "text": "How can I refer a Friend or other?",
+              "value": "HowcanIreferaFriendorother"
+            },
+            {
+              "text": "I have funded my account, but do not see any (money or digital assets) on the account!",
+              "value": "Ihavefundedmyaccountbutdonotseeanymoneyordigitalassetsontheaccount"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "title": "Wallet",
+          "categoryItems": [
+            {
+              "text": "Where can I find my wallet address and account numbers?",
+              "value": "WherecanIfindmywalletaddressandaccountnumbers"
+            },
+            {
+              "text": "Any Fees for HEdpAY wallet account administration?",
+              "value": "AnyFeesforHEdpAYwalletaccountadministration"
+            },
+            {
+              "text": "Any Transaction Fees in HEdpAY Wallet accounts?",
+              "value": "AnyTransactionFeesinHEdpAYWalletaccounts"
+            },
+            {
+              "text": "How can I Make a payment?",
+              "value": "HowcanIMakeapayment"
+            },
+            {
+              "text": "How can I add funds?",
+              "value": "HowcanIaddfunds"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "trade": {
+    "soonChat": "Chat coming soon!",
+    "soonChart": "Chart coming soon!",
+    "pairTitle": "Title pair",
+    "chatTitle": "Chat title",
+    "buyTitle": "buyTitle",
+    "sellTitle": "buyTitle",
+    "ethPrice": "ETH Price",
+    "ethPricePlaceholder": "ETH Price placeholder",
+    "totalOne": "Total one",
+    "TotalTwo": "Total two:",
+    "exchangeFee": "exchangeFee",
+    "maker": "Maker",
+    "taker": "Taker",
+    "send": "Send",
+    "ask": "Ask",
+    "bids": " Bids",
+    "priceAsk": "priceAsk",
+    "PMTAsk": "PMTAsk",
+    "ETHAsk": "ETHAsk",
+    "SumETHAsk": "Sum (ETH)",
+    "opHistory": "Operation history",
+    "opTime": "Time",
+    "opPrice": "Price",
+    "opAmount": "Amount"
+  },
+  "chat": {
+    "user": "You",
+    "admin": "Admin",
+    "symbols": "Symbols: ",
+    "message_placeholder": "Enter your message"
+  },
+  "banned": {
+    "title": "Your account was deactivated",
+    "reason": "Reason for deactivation",
+    "unbanDate": "Account deactivated until"
+  }
+}
